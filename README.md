@@ -50,8 +50,11 @@ List of airlines:
 | Country    | Country or territory where airline is incorporated.                                                                                                                                                                                                                    |
 | Active     | "Y" if the airline is or has until recently been operational, "N" if it is defunct. This field is not reliable: in particular, major airlines that stopped flying long ago, but have not had their IATA code reassigned (eg. Ansett/AN), will incorrectly show as "Y". |
 
-List of routes if we don't manage to get access to more recent data
+
 * https://raw.githubusercontent.com/jpatokal/openflights/master/data/routes.dat
 
-* https://www.transtats.bts.gov/Fields.asp
+List of routes if we don't manage to get access to more recent data.
 
+* https://www.transtats.bts.gov/databases.asp?Mode_ID=1&Mode_Desc=Aviation&Subject_ID2=0
+
+Delay information of the US aviation industry. Name of the dataset is Airline On- Time performance data
