@@ -58,3 +58,15 @@ List of routes if we don't manage to get access to more recent data.
 * https://www.transtats.bts.gov/databases.asp?Mode_ID=1&Mode_Desc=Aviation&Subject_ID2=0
 
 Delay information of the US aviation industry. Name of the dataset is Airline On- Time performance data
+
+* https://developers.google.com/maps/documentation/
+
+Distance travelld by car
+
+* https://github.com/juliuste/flix
+
+Flix bus data.
+
+* https://opensky-network.org/data/impala
+
+ADS-B positionning history. Dataset partners by swiss confederation, Bern university
