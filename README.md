@@ -4,7 +4,7 @@
 The idea of the project is to fact check aviation myths. Aviation and it's contribution to climate change are a thematic that is currently being talked about in our parliament. Let's not look at the media or our government to give us the facts, we want to extract the truth from the underlying facts to let the data speak for itself on the contribution of aviation to climate change. We would also like to explore other facts such as seasonal effects on delays in airports to see if there are periods in the year that are less likely to be affected. The aviation industry is quite protective of it's data but there are some openSource datasets that are available to allow use to do these analytics that we want. Sadly no estimates can be made on the ideal time to purchase tickets or more precisely any ticket price analysis since all of the data that we found online on this topic requires use to pay money.
 
 
-## Datasets
+## Research questions
 
 
 * Airplanes pollute a lot?
