@@ -67,10 +67,14 @@ Flix bus API (could be used for bus comparison)
 
 BlaBla car API (could be used for car sharing comparison)
 
-## Internal milestones
+## Internal milestones up until milestone 2
 
-* Fetch clean and check integrity of datasets
-* Merge datasets and compute awnsers to questions
+* Data wrangling:
+  * Explore the data
+  * Fetch clean and check integrity of datasets (pre-processing)
+* Merge datasets and compute anwsers to questions
+* Analysis of obtained results
+* Choose and test tools for vizualisation of results
 
 ## Questions for TAs
 
