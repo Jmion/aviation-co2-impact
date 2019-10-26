@@ -70,13 +70,13 @@ BlaBla car API (could be used for car sharing comparison)
 ## Internal milestones up until milestone 2
 
 * Data wrangling:
-  * Explore the data
-  * Fetch clean and check integrity of datasets (pre-processing)
-* Merge datasets and compute anwsers to questions
+ * Explore the data
+ * Fetch clean and check integrity of datasets (pre-processing)
+* Merge datasets and compute anwsers to questions:
+ * Check feasability of unanswered questions 
 * Analysis of obtained results
-* Choose and test tools for vizualisation of results
+* Choose and test tools for visualization of results
 
 ## Questions for TAs
 
 * None for now
-
