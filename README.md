@@ -1,4 +1,4 @@
-# What role does aviation play in the global carbon emissions?
+# Aviation and global carbon emissions
 
 ## Abstract
 
@@ -8,17 +8,14 @@ This is why, for this research, we decided to focus on planes. Indeed, planes ar
 
 ## Research questions
 
-We chose seven questions, that will help us to approach our research theme, which is the role of aviation in the global carbon emissions.
+We chose four questions that will help us to approach our research theme, which is the role of aviation in the global carbon emissions.
 
 ### Questions
 
-* What is the average CO2 emissions per passenger?
-* Is there significant difference in CO2 emissions between different airlines?
-* Are new airplanes polluting less than old ones and by how much?
-* Is there an ideal distance to travel to reduce our CO2 emissions per km?
-* What routes are the most flown?
-* Which country has the most airports?
-* Are airplanes usually on time? Does this have an impact on CO2 emissions?
+* What role does aviation play in the global carbon emissions?
+  * Is there significant difference in CO2 emissions between different airlines?
+  * Is there an ideal distance to travel to reduce our CO2 emissions per km?
+  * Are airplanes usually on time? Does this have an impact on CO2 emissions?
 
 ## Datasets
 
