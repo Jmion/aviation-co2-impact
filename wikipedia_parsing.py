@@ -62,33 +62,41 @@ _short_haul = _pd.DataFrame.from_dict(_dataframes[2])# 1900km
 _medium_haul = _pd.DataFrame.from_dict(_dataframes[3]) # 3240km - 6300km
 _long_haul = _pd.DataFrame.from_dict(_dataframes[4]) # 8610km - 13330km
 
+# Add missing sector
+_commuter["Sector"] = "560"
+_short_haul["Sector"] = "1900"
 
-_regional.columns = ["Model", "First flight", "Seats", "Sector", "Fuel burn", "Fuel per seat"]
+# Rename columns so that all the DF have same column names
+_regional = _regional.rename(columns={"Fuel efficiency per seat": "Fuel per seat"})
+_short_haul = _short_haul.rename(columns={"Fuel efficiency per seat": "Fuel per seat", "Fuel Burn": "Fuel burn"})
+
+# Helper method to reorder the DF with sector at the end
+def _reorder_df(df):
+    return df[["Model", "First flight", "Seats", "Fuel burn", "Fuel per seat", "Sector"]]
+
+_regional = _reorder_df(_regional)
+_medium_haul = _reorder_df(_medium_haul)
+_long_haul = _reorder_df(_long_haul)
 
 
+# ## Clean fields
 
-_short_haul.columns = ["Model", "First flight", "Seats", "Fuel burn", "Fuel per seat"]
-
-# # CO2 emissions
-# 
-# For 1kg of fuel, 3.304kg of CO2 is emitted
-
-# In[41]:
-
-
-CO2_ratio = 3.086
-
-
-# ## Keep only useful field
+def _clean_sector(x):
+    sector = x.split("(")
+    # If no "(" in x, the sector is already clean
+    if(len(sector) < 2):
+        return float(x)
+    return float(sector[1].split("k")[0].replace(",", ""))
 
 def _clean_df(df):
-    new_df = df[["Model", "Seats", "First flight", "Fuel burn", "Fuel per seat"]].copy()
+    new_df = df[["Model", "Seats", "First flight", "Fuel burn", "Fuel per seat", "Sector"]].copy()
     new_df["First flight"] = new_df["First flight"].apply(lambda x: int(x))
     new_df["Fuel burn"] = new_df['Fuel burn'].apply(lambda x: float(x.split("k")[0]))
     new_df["Fuel per seat"] = new_df['Fuel per seat'].apply(lambda x: float(x.split("L")[0])) 
-    new_df["CO2 kg/km"] = new_df["Fuel burn"].apply(lambda x: x*CO2_ratio)
     new_df["Seats"] = new_df["Seats"].apply(lambda x: int(x))
-    return new_df.rename(columns={"Fuel burn": "Fuel burn kg/km", "Fuel per seat": "Fuel per seat L/100km"})
+    new_df["Sector"] = new_df["Sector"].apply(lambda x: _clean_sector(x))
+    return new_df.rename(columns={"Fuel burn": "Fuel burn kg/km", "Fuel per seat": "Fuel per seat L/100km", "Sector": "Sector km"})
+
 
 
 # In[47]:
