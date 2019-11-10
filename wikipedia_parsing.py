@@ -4,17 +4,34 @@
 # In[32]:
 
 import pandas as _pd
-from requests import get
+from requests import get as _get
+from requests import codes as _codes
 from bs4 import BeautifulSoup as _BeautifulSoup
-
-
+import lzma as _lzma
+import os as _os
+import pickle as _pickle
 # In[33]:
 
 
-_url = 'https://en.wikipedia.org/wiki/Fuel_economy_in_aircraft'
-_r = get(_url)
+_path = _os.path.join(".", "data","wikipedia","wiki_page.data.zx")
+if(_os.path.isfile(_path)):
+    with _lzma.open(_path, "rb") as _wiki_file:
+        print("loading wikipedia data from hard drive")
+        _r = _pickle.load(_wiki_file)
+else:
+    try:
+        _url = 'https://en.wikipedia.org/wiki/Fuel_economy_in_aircraft'
+        _r = _get(url)
+        print("fetching online wikipedia page")
+        if(_r.status_code == _codes.ok): 
+            with _lzma.open(_path, "wb") as _wiki_file:
+                _pickle.dump(_r, _wiki_file)
+        else:
+            raise Exception("Cannot find local version of wikipedia data and website not responding with 200.")
+    except:
+        raise Exception("Cannot access the internet")
+        
 _soup = _BeautifulSoup(_r.text, 'html.parser')
-
 
 # In[34]:
 
@@ -64,20 +81,13 @@ CO2_ratio = 3.086
 
 # ## Keep only useful field
 
-# In[46]:
-
-
-def _clean_fuel_burn(x):
-    return float(x.split("k")[0])
-
-def _clean_fuel_per_seat(x):
-    return float(x.split("L")[0])
-
 def _clean_df(df):
-    new_df = df[["Model", "Fuel burn", "Fuel per seat"]].copy()
-    new_df["Fuel burn"] = [_clean_fuel_burn(x) for x in new_df["Fuel burn"]]
-    new_df["Fuel per seat"] = [_clean_fuel_per_seat(x) for x in new_df["Fuel per seat"]]
-    new_df["CO2 kg/km"] = [x*CO2_ratio for x in new_df["Fuel burn"]]
+    new_df = df[["Model", "Seats", "First flight", "Fuel burn", "Fuel per seat"]].copy()
+    new_df["First flight"] = new_df["First flight"].apply(lambda x: int(x))
+    new_df["Fuel burn"] = new_df['Fuel burn'].apply(lambda x: float(x.split("k")[0]))
+    new_df["Fuel per seat"] = new_df['Fuel per seat'].apply(lambda x: float(x.split("L")[0])) 
+    new_df["CO2 kg/km"] = new_df["Fuel burn"].apply(lambda x: x*CO2_ratio)
+    new_df["Seats"] = new_df["Seats"].apply(lambda x: int(x))
     return new_df.rename(columns={"Fuel burn": "Fuel burn kg/km", "Fuel per seat": "Fuel per seat L/100km"})
 
 
