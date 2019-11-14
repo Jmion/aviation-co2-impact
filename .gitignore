@@ -61,3 +61,7 @@ scratch/
 
 # Misc
 .DS_Store
+.gitsecret/keys/random_seed
+!*.secret
+data/planespotter/2019-11-12 prodlist.xlsx
+data/planespotter/mySecretMessage.txt
