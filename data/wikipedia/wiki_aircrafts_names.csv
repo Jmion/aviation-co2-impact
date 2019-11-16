@@ -1,163 +1,85 @@
-,Planespotter name,Wiki name
-0,ATR 42,ATR 42
-1,ATR 72,ATR 72
-2,Airbus A220-100,Airbus A220-100
-3,Airbus A220-300,Airbus A220-300
-4,Airbus A300-600,Airbus A300-600
-5,Airbus A300-600ST,Airbus A300-600ST
-6,Airbus A300B1,Airbus A300B1
-7,Airbus A300B2,Airbus A300B2
-8,Airbus A300B4,Airbus A300B4
-9,Airbus A310-200,Airbus A310-200
-10,Airbus A310-300,Airbus A310-300
-11,Airbus A318-100,Airbus A318-100
-12,Airbus A319-100,Airbus A319-100
-13,Airbus A319neo,Airbus A319neo
-14,Airbus A320-100,Airbus A320-100
-15,Airbus A320-200,Airbus A320-200
-16,Airbus A320neo,Airbus A320neo
-17,Airbus A321-100,Airbus A321-100
-18,Airbus A321-200,Airbus A321-200
-19,Airbus A321neo,Airbus A321neo
-20,Airbus A330-200,Airbus A330-200
-21,Airbus A330-300,Airbus A330-300
-22,Airbus A330-700,Airbus A330-700
-23,Airbus A330-800,Airbus A330-800
-24,Airbus A330-900,Airbus A330-900
-25,Airbus A340-200,Airbus A340-200
-26,Airbus A340-300,Airbus A340-300
-27,Airbus A340-500,Airbus A340-500
-28,Airbus A340-600,Airbus A340-600
-29,Airbus A350-1000,Airbus A350-1000
-30,Airbus A350-900,Airbus A350-900
-31,Airbus A380-800,Airbus A380-800
-32,Airbus A400,Airbus A400
-33,Antonov An-124,Antonov An-124
-34,Antonov An-140,Antonov An-140
-35,Antonov An-148,Antonov An-148
-36,Antonov An-158,Antonov An-158
-37,Antonov An-178,Antonov An-178
-38,Antonov An-225 Mriya,Antonov An-225 Mriya
-39,Aérospatiale/BAC Concorde,Aérospatiale/BAC Concorde
-40,BAC 1-11 Series 200,BAC 1-11 Series 200
-41,BAC 1-11 Series 400,BAC 1-11 Series 400
-42,BAC 1-11 Series 500,BAC 1-11 Series 500
-43,Beechcraft 1900,Beechcraft 1900
-44,Boeing 717-200,Boeing 717-200
-45,Boeing 727-100,Boeing 727-100
-46,Boeing 727-200,Boeing 727-200
-47,Boeing 737 MAX 10,Boeing 737 MAX 10
-48,Boeing 737 MAX 7,Boeing 737 MAX 7
-49,Boeing 737 MAX 8,Boeing 737 MAX 8
-50,Boeing 737 MAX 9,Boeing 737 MAX 9
-51,Boeing 737-100,Boeing 737-100
-52,Boeing 737-200,Boeing 737-200
-53,Boeing 737-300,Boeing 737-300
-54,Boeing 737-400,Boeing 737-400
-55,Boeing 737-500,Boeing 737-500
-56,Boeing 737-600,Boeing 737-600
-57,Boeing 737-700,Boeing 737-700
-58,Boeing 737-800,Boeing 737-800
-59,Boeing 737-900,Boeing 737-900
-60,Boeing 747-100,Boeing 747-100
-61,Boeing 747-200,Boeing 747-200
-62,Boeing 747-300,Boeing 747-300
-63,Boeing 747-400,Boeing 747-400
-64,Boeing 747-8,Boeing 747-8
-65,Boeing 747SP,Boeing 747SP
-66,Boeing 757-200,Boeing 757-200
-67,Boeing 757-300,Boeing 757-300
-68,Boeing 767-200,Boeing 767-200
-69,Boeing 767-300,Boeing 767-300
-70,Boeing 767-400,Boeing 767-400
-71,Boeing 777-200,Boeing 777-200
-72,Boeing 777-300,Boeing 777-300
-73,Boeing 777-9,Boeing 777-9
-74,Boeing 787-10 Dreamliner,Boeing 787-10 Dreamliner
-75,Boeing 787-8 Dreamliner,Boeing 787-8 Dreamliner
-76,Boeing 787-9 Dreamliner,Boeing 787-9 Dreamliner
-77,Boeing C-17A Globemaster III,Boeing C-17A Globemaster III
-78,Bombardier BD-700 Global Express,Bombardier BD-700 Global Express
-79,Bombardier CRJ-100,Bombardier CRJ-100
-80,Bombardier CRJ-1000,Bombardier CRJ-1000
-81,Bombardier CRJ-200,Bombardier CRJ-200
-82,Bombardier CRJ-700,Bombardier CRJ-700
-83,Bombardier CRJ-900,Bombardier CRJ-900
-84,British Aerospace 146-100,British Aerospace 146-100
-85,British Aerospace 146-200,British Aerospace 146-200
-86,British Aerospace 146-300,British Aerospace 146-300
-87,British Aerospace Avro RJ100,British Aerospace Avro RJ100
-88,British Aerospace Avro RJ70,British Aerospace Avro RJ70
-89,British Aerospace Avro RJ85,British Aerospace Avro RJ85
-90,British Aerospace BAe ATP,British Aerospace BAe ATP
-91,British Aerospace Jetstream 41,British Aerospace Jetstream 41
-92,CASA C-295,CASA C-295
-93,COMAC ARJ21-700,COMAC ARJ21-700
-94,COMAC C919,COMAC C919
-95,Cessna 525 CitationJet,Cessna 525 CitationJet
-96,Cessna 750 Citation X,Cessna 750 Citation X
-97,Dassault Mercure,Dassault Mercure
-98,De Havilland Canada DHC-6 Twin Otter,De Havilland Canada DHC-6 Twin Otter
-99,De Havilland Canada DHC-8-100,De Havilland Canada DHC-8-100
-100,De Havilland Canada DHC-8-200,De Havilland Canada DHC-8-200
-101,De Havilland Canada DHC-8-300,De Havilland Canada DHC-8-300
-102,De Havilland Canada DHC-8-400,De Havilland Canada DHC-8-400
-103,Dornier Do-328,Dornier Do-328
-104,Dornier Do-328JET,Dornier Do-328JET
-105,Douglas DC-8-10,Douglas DC-8-10
-106,Douglas DC-8-20,Douglas DC-8-20
-107,Douglas DC-8-30,Douglas DC-8-30
-108,Douglas DC-8-40,Douglas DC-8-40
-109,Douglas DC-8-50,Douglas DC-8-50
-110,Douglas DC-8-60/70,Douglas DC-8-60/70
-111,Embraer E175-E2,Embraer E175-E2
-112,Embraer E190-E2,Embraer E190-E2
-113,Embraer E195-E2,Embraer E195-E2
-114,Embraer EMB-120 Brasilia,Embraer EMB-120 Brasilia
-115,Embraer EMB-390 KC,Embraer EMB-390 KC
-116,Embraer ERJ-135,Embraer ERJ-135
-117,Embraer ERJ-140,Embraer ERJ-140
-118,Embraer ERJ-145,Embraer ERJ-145
-119,Embraer ERJ-170,Embraer ERJ-170
-120,Embraer ERJ-175,Embraer ERJ-175
-121,Embraer ERJ-190,Embraer ERJ-190
-122,Embraer ERJ-195,Embraer ERJ-195
-123,Eurocopter EC135,Eurocopter EC135
-124,Fokker F100,Fokker F100
-125,Fokker F50,Fokker F50
-126,Fokker F60,Fokker F60
-127,Fokker F70,Fokker F70
-128,Gulfstream Aerospace G-IV Gulfstream,Gulfstream Aerospace G-IV Gulfstream
-129,Gulfstream Aerospace G-V Gulfstream,Gulfstream Aerospace G-V Gulfstream
-130,Hawker Beechcraft Hawker 4000,Hawker Beechcraft Hawker 4000
-131,Ilyushin Il-62,Ilyushin Il-62
-132,Ilyushin Il-76,Ilyushin Il-76
-133,Ilyushin Il-96,Ilyushin Il-96
-134,Irkut MC-21-300,Irkut MC-21-300
-135,Lockheed C-5 Galaxy,Lockheed C-5 Galaxy
-136,Lockheed L-1011 Tristar,Lockheed L-1011 Tristar
-137,McDonnell Douglas DC-10-10,McDonnell Douglas DC-10-10
-138,McDonnell Douglas DC-10-30,McDonnell Douglas DC-10-30
-139,McDonnell Douglas DC-10-40,McDonnell Douglas DC-10-40
-140,McDonnell Douglas DC-9-10,McDonnell Douglas DC-9-10
-141,McDonnell Douglas DC-9-20,McDonnell Douglas DC-9-20
-142,McDonnell Douglas DC-9-30,McDonnell Douglas DC-9-30
-143,McDonnell Douglas DC-9-40,McDonnell Douglas DC-9-40
-144,McDonnell Douglas DC-9-50,McDonnell Douglas DC-9-50
-145,McDonnell Douglas MD-10,McDonnell Douglas MD-10
-146,McDonnell Douglas MD-11,McDonnell Douglas MD-11
-147,McDonnell Douglas MD-81,McDonnell Douglas MD-81
-148,McDonnell Douglas MD-82,McDonnell Douglas MD-82
-149,McDonnell Douglas MD-83,McDonnell Douglas MD-83
-150,McDonnell Douglas MD-87,McDonnell Douglas MD-87
-151,McDonnell Douglas MD-88,McDonnell Douglas MD-88
-152,McDonnell Douglas MD-90,McDonnell Douglas MD-90
-153,Mitsubishi MRJ90,Mitsubishi MRJ90
-154,Saab 2000,Saab 2000
-155,Saab 340,Saab 340
-156,Sukhoi Superjet 100,Sukhoi Superjet 100
-157,Tupolev Tu-134,Tupolev Tu-134
-158,Tupolev Tu-154,Tupolev Tu-154
-159,Tupolev Tu-204,Tupolev Tu-204
-160,Tupolev Tu-214,Tupolev Tu-214
-161,Yakovlev Yak-42,Yakovlev Yak-42
+,0
+0,ATR 42-500
+1,ATR 72-500
+2,Airbus A220 100
+3,Airbus A220 300
+4,Airbus A220-100
+5,Airbus A220-300
+6,Airbus A319
+7,Airbus A319Neo
+8,Airbus A319neo
+9,Airbus A320
+10,Airbus A320neo
+11,Airbus A321-200
+12,Airbus A321NeoLR
+13,Airbus A321neo
+14,Airbus A330-200
+15,Airbus A330-300
+16,Airbus A330neo-800
+17,Airbus A330neo-900
+18,Airbus A340-300
+19,Airbus A350-900
+20,Airbus A380
+21,Antonov An-148
+22,Antonov An-148 (1190 nmi)
+23,Antonov An-148 (241 nmi)
+24,Antonov An-158
+25,Antonov An-158 (1190 nmi)
+26,Antonov An-158 (241 nmi)
+27,Beechcraft 1900D (226 nm)
+28,Boeing 737 MAX 7
+29,Boeing 737 MAX 8
+30,Boeing 737 MAX 9
+31,Boeing 737 MAX-7
+32,Boeing 737 MAX-8
+33,Boeing 737 MAX-9
+34,Boeing 737-300
+35,Boeing 737-600
+36,Boeing 737-700
+37,Boeing 737-800
+38,Boeing 737-800W
+39,Boeing 737-900ER
+40,Boeing 737-900ERW
+41,Boeing 747-400
+42,Boeing 747-8
+43,Boeing 757-200
+44,Boeing 757-200W
+45,Boeing 757-300
+46,Boeing 767-200ER
+47,Boeing 767-300ER
+48,Boeing 767-400ER
+49,Boeing 777-200
+50,Boeing 777-200ER
+51,Boeing 777-200LR
+52,Boeing 777-300
+53,Boeing 777-300ER
+54,Boeing 777-9X
+55,Boeing 787-8
+56,Boeing 787-9
+57,Bombardier CRJ100
+58,Bombardier CRJ1000
+59,Bombardier CRJ200
+60,Bombardier CRJ700
+61,Bombardier CRJ900
+62,Bombardier Dash 8 Q400
+63,Dornier 228
+64,Dornier 328
+65,Embraer Brasilia
+66,Embraer E-Jet E2-175
+67,Embraer E-Jet E2-190
+68,Embraer E-Jet E2-195
+69,Embraer E-Jet-170
+70,Embraer E-Jet-175
+71,Embraer E-Jet-190
+72,Embraer E-Jet-195
+73,Embraer ERJ-135ER
+74,Embraer ERJ-135ER (309 nmi)
+75,Embraer ERJ-145ER
+76,Embraer ERJ-145ER (305 nmi)
+77,Irkut MC-21
+78,Pilatus PC-12
+79,Quest Kodiak
+80,Saab 2000
+81,Saab 340
+82,Sukhoi SSJ100
+83,Xian MA700
