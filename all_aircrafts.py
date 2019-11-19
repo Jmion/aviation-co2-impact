@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# coding: utf-8
+
 from wikipedia_parsing import commuter as commuter_aircraft
 from wikipedia_parsing import long_haul as long_haul_aircraft
 from wikipedia_parsing import medium_haul as medium_haul_aircraft
