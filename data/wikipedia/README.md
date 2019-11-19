@@ -1,5 +1,5 @@
 # About
-This data is parsed from the wikipedia page ()[https://en.wikipedia.org/wiki/Fuel_economy_in_aircraft]
+This data is parsed from the wikipedia page https://en.wikipedia.org/wiki/Fuel_economy_in_aircraft
 
 # License
 
