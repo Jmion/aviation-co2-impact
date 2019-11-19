@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[32]:
-
 import pandas as _pd
 from requests import get as _get
 from requests import codes as _codes
@@ -10,11 +8,10 @@ from bs4 import BeautifulSoup as _BeautifulSoup
 import lzma as _lzma
 import os as _os
 import pickle as _pickle
-# In[33]:
 
 
 _path = _os.path.join(".", "data","wikipedia","wiki_page.data.zx")
-if(_os.path.isfile(_path)):
+if(_os.path.isfile(_path)): #Check that local version of website exists
     with _lzma.open(_path, "rb") as _wiki_file:
         print("loading wikipedia data from hard drive")
         _r = _pickle.load(_wiki_file)
@@ -25,7 +22,7 @@ else:
         print("fetching online wikipedia page")
         if(_r.status_code == _codes.ok): 
             with _lzma.open(_path, "wb") as _wiki_file:
-                _pickle.dump(_r, _wiki_file)
+                _pickle.dump(_r, _wiki_file) # Store fetched page to local storage
         else:
             raise Exception("Cannot find local version of wikipedia data and website not responding with 200.")
     except:
@@ -33,9 +30,8 @@ else:
         
 _soup = _BeautifulSoup(_r.text, 'html.parser')
 
-# In[34]:
 
-
+# Parsing of the website to extract the relevant information
 _dataframes = []
 for _table in _soup.find_all("table"):
     _table_headers = []
@@ -53,9 +49,7 @@ _dataframes = _dataframes[:-1] #We don't want the private jets
 print("There are " + str(len(_dataframes))+ " dataframes")
 
 
-# In[35]:
-
-
+# Aircraft information seperated by distance that they can fly
 _commuter = _pd.DataFrame.from_dict(_dataframes[0]) # 560km
 _regional = _pd.DataFrame.from_dict(_dataframes[1]) # 926km - 1267km
 _short_haul = _pd.DataFrame.from_dict(_dataframes[2])# 1900km
@@ -79,7 +73,7 @@ _medium_haul = _reorder_df(_medium_haul)
 _long_haul = _reorder_df(_long_haul)
 
 
-# ## Clean fields
+# Clean fields
 
 def _clean_sector(x):
     sector = x.split("(")
@@ -98,10 +92,7 @@ def _clean_df(df):
     return new_df.rename(columns={"Fuel burn": "Fuel burn kg/km", "Fuel per seat": "Fuel per seat L/100km", "Sector": "Sector km"})
 
 
-
-# In[47]:
-
-
+# public variables to be imported elewhere.
 commuter = _clean_df(_commuter)
 regional = _clean_df(_regional)
 short_haul = _clean_df(_short_haul)
