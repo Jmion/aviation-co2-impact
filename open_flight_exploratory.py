@@ -12,15 +12,10 @@
 # 
 # Planes : Name  
 
-# In[1]:
-
 
 import numpy as np
 import pandas as pd
 import os #Concatenate path for file
-
-
-# In[2]:
 
 
 # Load the data
@@ -29,8 +24,6 @@ def __load_dataset(filename, sep=','):
     filepath = os.path.join(dirpath, filename)
     raw_data = pd.read_csv(filepath, sep, header=None, encoding='utf-8')
     return raw_data
-
-# In[3]:
 
 
 # Load data
@@ -45,14 +38,9 @@ _planes_raw.columns   = ['Name', 'IATA', 'ICAO']
 _routes_raw.columns   = ['Airline', 'Airline_ID', 'src_airport', 'src_airport_ID', 'dest_airport', 'dest_airport_ID', 'Codeshare', 'Stops', 'Equipment']
 
 
-# In[4]:
-
-
 def __remove_backslash_n(dataset):
     return dataset.replace('\\N', np.nan)
 
-
-# In[5]:
 
 
 def __clean_airlines(airlines_data_raw):
@@ -60,9 +48,6 @@ def __clean_airlines(airlines_data_raw):
     airlines = __remove_backslash_n(airlines)
     airlines[airlines.Airline_ID == 1] = airlines[airlines.Airline_ID == 1].replace('-', np.nan)
     return airlines
-
-
-# In[6]:
 
 
 # Cleaned dataset
