@@ -27,7 +27,7 @@ During our analysis, we noticed that it could also be interesting, in addition t
   * Is there significant difference in CO2 emissions between different airlines?
   * Is there an ideal distance to travel to reduce our CO2 emissions per km?
   * ~~Are airplanes usually on time? Does this have an impact on CO2 emissions?~~
-  * **Is there a significant difference in CO2 emissions between different coutry ?**
+  * **Is there a significant difference in CO2 emissions between different countries ?**
 
 ## Datasets
 
