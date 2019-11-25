@@ -34,17 +34,17 @@ During our analysis, we noticed that it could also be interesting, in addition t
 
 Even though the aviation industry is quite protective of its data, we were able to find several open source datasets that will help us to achieve our goal:
 
+*Update Milestone 2 : only the dataset used are listed, others that were mentionned in Milestone 1 and not used are removed*
+
 * https://en.wikipedia.org/wiki/Fuel_economy_in_aircraft
 
-By scraping this page, we will infer the following informations: airplanes average seat number and fuel burn (CO2)
+By scraping this page, we will infer the following informations: airplanes average seat number and fuel burn (CO2). 
 
-* ~~https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes/blob/master/all/all.csv~~
-
-~~ISO-3166 country code dataset~~
+*Used for answering all the questions as it is the based for the CO2 emissions computations*
 
 * https://openflights.org/data.html
 
-List of routes (up to 2014) and planes models
+List of routes (up to 2014) and planes models. *Used for answering the second question*
 
 * ~~https://www.transtats.bts.gov/databases.asp?Mode_ID=1&Mode_Desc=Aviation&Subject_ID2=0~~
 
@@ -54,33 +54,21 @@ List of routes (up to 2014) and planes models
 
 * https://opensky-network.org/data/impala
 
-Historical data of aircrafts. Dataset partners by Swiss confederation, Bern university, Oxford University
+Historical data of aircrafts. Dataset partners by Swiss confederation, Bern university, Oxford University 
+
+*Used for answering the 4th question*
 
 **NEW** 
 
 * https://www.planespotters.net
 
-All aircrafts models by airline
+All aircrafts models by airline *Used for answering all the questions as it is the based for the CO2 emissions computations*
 
-### Annexes
+* Gapminder (https://www.gapminder.org/data/)
 
-These annexe sources, will be used either for secondary questions or further analysis:
+Only the dataset income_per_person_gdppercapita_ppp_inflation_adjusted.csv was downloaded and used in this analysis.
 
-* https://ourairports.com
-
-List of airports in the world
-
-* https://developers.google.com/maps/documentation/
-
-Google maps API (could be used for car comparison)
-
-* https://github.com/juliuste/flix
-
-Flix bus API (could be used for bus comparison)
-
-* https://dev.blablacar.com/hc/en-us/articles/360009002899--API-documentation
-
-BlaBla car API (could be used for car sharing comparison)
+*Used for comparison with income per person in the third question (about country)*
 
 ## Internal milestones up until milestone 2
 
