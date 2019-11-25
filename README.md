@@ -28,7 +28,7 @@ During our analysis, we noticed that it could also be interesting, in addition t
   * Is there significant difference in CO2 emissions between different airlines?
   * ~~Are airplanes usually on time? Does this have an impact on CO2 emissions?~~
   * **Is there a significant difference in CO2 emissions between different countries ?**
-  * **As swiss travellers, is there better destination according to the CO2 emissions ?** 
+  * **Are there better destinations for a Swiss traveller according to the CO2 emissions per kilometer ?** 
 
 ## Datasets
 
@@ -92,16 +92,32 @@ BlaBla car API (could be used for car sharing comparison)
 * Analysis of obtained results
 * Choose and test tools for visualization of results
 
-## Internal milestones up until milestone 3
-
-* Week 12:
-  * 
+## Internal milestones up until Presentation
+* Week 11 :
+  * Extracting main information from Milestone 2 to put in the data story
+* Week 12 :
+  * Writting the text of the data story for questions 1 and 2 (about distance and airlines)
+  * Plot meaningful information for those questions
 * Week 13:
-  *
+  * Writting the text of the data story for questions 2 and 3 (about countries and routes)
+  * Plot meaningful information for those questions
 * Week 14: 
-  *
-* End of semester:
-  * Fixing bugs
+  * Clean the final notebook
+  * Put all parts of the data story together
+  * Format and clean the data story
+  * **Milestone 3 on 20th of December**
+* Chrismas break :
+  * Produce the poster
+    * Select informations to integrate on the poster
+    * Make data visualisation for the poster
+    * Format the poster
+* January 6 - 10 : 
+  * print the poster at https://repro.epfl.ch (closed until January 3)
+  * Logistic for presentation
+* January 13 - 19 :
+  * Presentation fine tuning
+* January 20 :
+  * **Presentation**
 
 ## Questions for TAs
 
