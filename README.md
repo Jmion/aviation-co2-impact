@@ -1,5 +1,8 @@
 # Aviation and global carbon emissions
 
+## Milestone 2 deliverable 
+All the milestone 2 materials are in the notebook Milestone2.ipynb
+
 ## Abstract
 
 Talking about being "eco responsible" is the trend. We are told by newspapers, scientists, social medias and Greta that we should consume less, or at least make efforts. Since in our team, we are true students, we were already talking about the next summer holidays. In the middle of the discussion, we suddenly became worried about a particular aspect of the holidays.
