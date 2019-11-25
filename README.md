@@ -1,7 +1,7 @@
 # Aviation and global carbon emissions
 
 ## Milestone 2 deliverable 
-All the milestone 2 materials are in the notebook Milestone2.ipynb
+All the milestone 2 materials are in the notebook Milestone2.ipynb. As there is some interactive visualization in the notebook, you can find the rendered version here : 
 
 ## Abstract
 
