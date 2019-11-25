@@ -28,22 +28,23 @@ During our analysis, we noticed that it could also be interesting, in addition t
   * Is there significant difference in CO2 emissions between different airlines?
   * ~~Are airplanes usually on time? Does this have an impact on CO2 emissions?~~
   * **Is there a significant difference in CO2 emissions between different countries ?**
+  * **Are there better destinations for a Swiss traveller according to the CO2 emissions per kilometer ?** 
 
 ## Datasets
 
 Even though the aviation industry is quite protective of its data, we were able to find several open source datasets that will help us to achieve our goal:
 
+*Update Milestone 2 : only the dataset used are listed, others that were mentionned in Milestone 1 and not used are removed*
+
 * https://en.wikipedia.org/wiki/Fuel_economy_in_aircraft
 
-By scraping this page, we will infer the following informations: airplanes average seat number and fuel burn (CO2)
+By scraping this page, we will infer the following informations: airplanes average seat number and fuel burn (CO2). 
 
-* ~~https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes/blob/master/all/all.csv~~
-
-~~ISO-3166 country code dataset~~
+*Used for answering all the questions as it is the based for the CO2 emissions computations*
 
 * https://openflights.org/data.html
 
-List of routes (up to 2014) and planes models
+List of routes (up to 2014) and planes models. *Used for answering the second question*
 
 * ~~https://www.transtats.bts.gov/databases.asp?Mode_ID=1&Mode_Desc=Aviation&Subject_ID2=0~~
 
@@ -53,33 +54,21 @@ List of routes (up to 2014) and planes models
 
 * https://opensky-network.org/data/impala
 
-Historical data of aircrafts. Dataset partners by Swiss confederation, Bern university, Oxford University
+Historical data of aircrafts. Dataset partners by Swiss confederation, Bern university, Oxford University 
+
+*Used for answering the 4th question*
 
 **NEW** 
 
 * https://www.planespotters.net
 
-All aircrafts models by airline
+All aircrafts models by airline *Used for answering all the questions as it is the based for the CO2 emissions computations*
 
-### Annexes
+* Gapminder (https://www.gapminder.org/data/)
 
-These annexe sources, will be used either for secondary questions or further analysis:
+Only the dataset income_per_person_gdppercapita_ppp_inflation_adjusted.csv was downloaded and used in this analysis.
 
-* https://ourairports.com
-
-List of airports in the world
-
-* https://developers.google.com/maps/documentation/
-
-Google maps API (could be used for car comparison)
-
-* https://github.com/juliuste/flix
-
-Flix bus API (could be used for bus comparison)
-
-* https://dev.blablacar.com/hc/en-us/articles/360009002899--API-documentation
-
-BlaBla car API (could be used for car sharing comparison)
+*Used for comparison with income per person in the third question (about country)*
 
 ## Internal milestones up until milestone 2
 
@@ -91,16 +80,32 @@ BlaBla car API (could be used for car sharing comparison)
 * Analysis of obtained results
 * Choose and test tools for visualization of results
 
-## Internal milestones up until milestone 3
-
-* Week 12:
-  * 
+## Internal milestones up until Presentation
+* Week 11 :
+  * Extracting main information from Milestone 2 to put in the data story
+* Week 12 :
+  * Writting the text of the data story for questions 1 and 2 (about distance and airlines)
+  * Plot meaningful information for those questions
 * Week 13:
-  *
+  * Writting the text of the data story for questions 2 and 3 (about countries and routes)
+  * Plot meaningful information for those questions
 * Week 14: 
-  *
-* End of semester:
-  * Fixing bugs
+  * Clean the final notebook
+  * Put all parts of the data story together
+  * Format and clean the data story
+  * **Milestone 3 on 20th of December**
+* Chrismas break :
+  * Produce the poster
+    * Select informations to integrate on the poster
+    * Make data visualisation for the poster
+    * Format the poster
+* January 6 - 10 : 
+  * print the poster at https://repro.epfl.ch (closed until January 3)
+  * Logistic for presentation
+* January 13 - 19 :
+  * Presentation fine tuning
+* January 20 :
+  * **Presentation**
 
 ## Questions for TAs
 
