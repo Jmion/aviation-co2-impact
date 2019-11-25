@@ -26,7 +26,7 @@ During our analysis, we noticed that it could also be interesting, in addition t
 * What role does aviation play in the global carbon emissions?
   * Is there significant difference in CO2 emissions between different airlines?
   * Is there an ideal distance to travel to reduce our CO2 emissions per km?
-  * ~~Are airplanes usually on time? Does this have an impact on CO2 emissions?
+  * ~~Are airplanes usually on time? Does this have an impact on CO2 emissions?~~
   * **Is there a significant difference in CO2 emissions between different coutry ?**
 
 ## Datasets
@@ -37,17 +37,17 @@ Even though the aviation industry is quite protective of its data, we were able 
 
 By scraping this page, we will infer the following informations: airplanes average seat number and fuel burn (CO2)
 
-* ~~https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes/blob/master/all/all.csv
+* ~~https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes/blob/master/all/all.csv~~
 
-~~ISO-3166 country code dataset
+~~ISO-3166 country code dataset~~
 
 * https://openflights.org/data.html
 
 List of routes (up to 2014) and planes models
 
-* ~~https://www.transtats.bts.gov/databases.asp?Mode_ID=1&Mode_Desc=Aviation&Subject_ID2=0
+* ~~https://www.transtats.bts.gov/databases.asp?Mode_ID=1&Mode_Desc=Aviation&Subject_ID2=0~~
 
-~~Delay information of the US aviation industry. Name of the dataset is Airline On- Time performance data
+~~Delay information of the US aviation industry. Name of the dataset is Airline On- Time performance data~~
 
 *We did not use this data because we are not looking at whether aircrafts are on time or not anymore.*
 
