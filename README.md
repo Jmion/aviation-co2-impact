@@ -28,6 +28,7 @@ During our analysis, we noticed that it could also be interesting, in addition t
   * Is there significant difference in CO2 emissions between different airlines?
   * ~~Are airplanes usually on time? Does this have an impact on CO2 emissions?~~
   * **Is there a significant difference in CO2 emissions between different countries ?**
+  * **As swiss travellers, is there better destination according to the CO2 emissions ?** 
 
 ## Datasets
 
