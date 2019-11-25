@@ -3,6 +3,8 @@
 ## Milestone 2 deliverable 
 All the milestone 2 materials are in the notebook Milestone2.ipynb. As there is some interactive visualization in the notebook, you can find the rendered version here : https://nbviewer.jupyter.org/github/Jmion/aviation-co2-impact/blob/master/Milestone2.ipynb
 
+Note : all graphs are not finalized, there could be some missing colorscales or caption.
+
 ## Abstract
 
 Talking about being "eco responsible" is the trend. We are told by newspapers, scientists, social medias and Greta that we should consume less, or at least make efforts. Since in our team, we are true students, we were already talking about the next summer holidays. In the middle of the discussion, we suddenly became worried about a particular aspect of the holidays.
@@ -34,6 +36,8 @@ During our analysis, we noticed that it could also be interesting, in addition t
   * **Are there better destinations for a Swiss traveller according to the CO2 emissions per kilometer ?** 
 
 ## Datasets
+
+**Note :** Some of the listed datasets are not available in the data folder. This is due to licence constraints of the following datasets.
 
 Even though the aviation industry is quite protective of its data, we were able to find several open source datasets that will help us to achieve our goal:
 
