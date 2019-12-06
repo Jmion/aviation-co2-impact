@@ -1,41 +1,5 @@
-body{
-	text-align: justify;
-	align-content: center;
-	background-color: #a7afa3;
-	color: black;
-}
-
-div{
-	max-width: 75vw;
-	margin:auto;
-	align-content: center;
-}
-
-
-h1{
-	text-align:center;
-}
-
-img {
-	width: 50vw;
-}
-
-#table {
-	align-content: center;
-}
-
-a:link{
-	color:#30B23D;
-}
-a:visited{
-	color:#B7FFBF;
-}
-
 iframe{
 	width:80%;
 	height:480px;
 }
 
-.plot{
-	width:50vw;
-}
