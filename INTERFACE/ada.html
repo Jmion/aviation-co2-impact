@@ -130,7 +130,7 @@ body, html {
 
       <img class="plot" src="data/CO2_seat_sector.png">
 
-      <p>Indeed, regional and commuter aircrafts are messy. Also, one short haul aircraft is an outlier. But by hovering the mouse over the point, we see that it is a Quest Kodiak, a plane with only 9 seats which explain its CO2 emissions.</p>
+      <p>Indeed, regional and commuter aircrafts are messy. Also, one short haul aircraft is an outlier: it is a Quest Kodiak, a plane with only 9 seats which explain its CO2 emissions.</p>
       <p>About regional and commuter aircrafts, some models have very few seats as well, for short distances. This has a direct impact on the CO2 emissions per seat and explain why our graph is so messy.</p>
       <p>If you think the same way as we do, you would appreciate to see the relation between CO2 emission per seat and the number of seats of an aircraft. Well, please, be our guest and look at this:</p>
 
@@ -153,8 +153,6 @@ body, html {
 
       <img class="plot" src="data/CO2_first_flight.png">
 
-      <p><em>Note that if you are curious and you want to see the slope of the line, you can hover your mouse over the line and look at the first parameter of the equation “CO2 per seat kg/100km”</em></p>
-
       <p>This is reassuring. For every category, planes are becoming more fuel efficient. However, there is a noticeable difference between categories. While short haul aircrafts are decreasing from 4.3% per year, regional aircrafts are decreasing from more than 9% a year.</p>
 
       <h4 class="w3-center">CONCLUSION PART 1</h4>
@@ -174,7 +172,7 @@ body, html {
 
       <p>Now that we have a good understanding of the relation between distance and carbon emissions, we would like to identify what type of traffic is the most polluting. We are also interested in finding the factors, if any, that make some airlines less polluant than others.</p>
       <p>For this part, we will need to get our hands on the fleets of each airline in details. To do that, we obviously need a dataset containing informations about airlines and their fleets. Well thanks to planespotter.net, we have all the informations that we need, and even more. They nicely agreed to share their data with us for research purposes only, and we would like to thank them again for that.</p>
-      <p>Since you are probably curious, here is a short parenthesis about one issue was that we encountered when merging all the data that we had. Some aircrafts of the same model can be equipped with different number of seats. This means that the overall mass of the aircraft is slightly different and leads to a slight difference in fuel burn / km. Since we needed to have unique aircrafts models (otherwise we would not know which version of a given model to take into account), we solved this issue by grouping the all the same aircrafts models together and averaging their values (i.e. a mean). Once it was done, we had a huge dataset with a lot of informations in it.</p>
+      <p>Since you are probably curious, here is a short parenthesis about one issue was that we encountered when merging all the data that we had. Some aircrafts of the same model can be equipped with different number of seats. This means that the overall mass of the aircraft is slightly different and it leads to a slight difference in fuel burn / km. Since we needed to have unique aircrafts models (otherwise we would not know which version of a given model to take into account), we solved this issue by grouping the all the same aircrafts models together and averaging their values (i.e. a mean). Once it was done, we had a huge dataset with a lot of informations in it.</p>
 
       <p>Now that you know the story behind our data, let’s have a look at what we are interested in, starting with the trends per operator.</p>
       <p>The criterias of the fleet of aircrafts that we are interested in are:</p>
