@@ -44,7 +44,7 @@ Let's take the first one and show in a map ploting the income by person.
 
 The map looks good and we can say that our first hypothesis seems to be true.
 
-However we are once again not able to show that he higher the GDP per capita is, the more a flight pollutes per seat with a regression.
+However, we are once again not able to show that he higher the GDP per capita is, the more a flight pollutes per seat with a regression.
 
 ### graph CO2 Emissions per seat by GPD
 
@@ -77,3 +77,20 @@ Let's now have a look at the European situation. We plot plot what are the less 
 We can see from the graph above that shorter flights tend to use more fuel. This confirms the findings done in the first analysis where it was found that CO2 emissions per seat decrease rapidly when aircrafts increase their flight distance up until 6000 km. It is then not a surprise to see the longer flights on this map having higher CO2 emissions per seat.
 
 Another element we can see on this plot is that there is better destination to go for if you care about the environment even for similar distances. In fact, we seee a broad range of colors for distances which are similar. 
+
+
+## conclusion 
+
+The analysis show us several factors that can reduce our CO2 emissions when we travel. Let summarize the elements found :
+
+ 1. The distance has an influence CO2 emissions per kilometer. We found that is betthe ideal distance to travel more than 2000 km. So, we think that we should avoid to do a lot of short flight. Especially regional jets are not good in terms of CO2 emissions.
+
+ 2. The company you choose has an impact. For sure, you sometimes have no choice, but it would be good to look at the ecological footprint of a company if you care about the environment. It would be good that all online flight comparator could give an estimation of this factor.
+
+ For both aspect the type of aircraft is a big related factor, but companies "choose" the planes they flight and they also can setup its airplanes in different ways. Then a low cost company could have a better CO2 emissions per seats as they try to put more seats in the same aircraft. So should we prefer low cost airlines for environmental issues ? Well, we know that the solution is not easy and that we take only in account the CO2 per seat. Nevertheless, we think that this approach is interesting.
+
+There is also some hope for the future as we see that the technology tends to reduce the CO2 emissions as we can see some clear decrease with time.
+
+We can also see big differences in the differents parts of the world. So as Europeans we can really have an impact on the CO2 emission of the aviation industry.
+
+We did not discuss the alternatives to fly as train or bus as example. That is not easy to compare other transportation means with our simplistic model for aircraft and these questions need a lot more of other sources of data to have reliable answers.
