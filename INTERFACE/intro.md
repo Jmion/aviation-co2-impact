@@ -1,0 +1,8 @@
+<p>Talking about being "eco responsible" is the trend. We are told by newspapers, scientists, social medias and Greta that we should consume less, or at least make efforts. Since in our team, we are true students, we were already talking about the next summer holidays. In the middle of the discussion, we suddenly became worried about a particular aspect of the holidays.</p>
+
+<p>This is why, for this research, we decided to focus on planes. Indeed, planes are subject to more and more taxes, and are criticized for being extra pollutant. But is it really true ? In our analysis, we computed and measured different metrics related to CO2 emissions of airplanes and airlines. The outcome should help us to be aware of the impact of our travel decisions. For example: "Does the choice of the airline company have an impact on my carbon footprint?".</p>
+
+<p>Before jumping right into our analysis, let us take the time to explain to you how we started. The first thing that we needed was information about different existing aircraft models and their characteristics, and we luckily found <a href="https://en.wikipedia.org/wiki/Fuel_economy_in_aircraft">this wikipedia page</a>. We parsed it (we spare you the details beacause you are here to read a story, not a user manual) and added a crucial missing information: the CO2 emissions in kg/100km as well as the CO2 emissions in kg/100km per seat, for every aircraft model.</p>
+
+<p>Briefly, we added these fields thanks to one of our team member chemestry memories from high school (if you REALLY feel like we are missing some details, look at <a href="https://nbviewer.jupyter.org/github/Jmion/aviation-co2-impact/blob/master/Milestone2.ipynb?flush_cache=true">this</a>).</p>
+
