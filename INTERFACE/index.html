@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <link rel="stylesheet" href="index.css">
 </head>
 <body>
@@ -44,14 +45,15 @@
 
 <p>This is why, for this research, we decided to focus on planes. Indeed, planes are subject to more and more taxes, and are criticized for being extra pollutant. But is it really true ? In our analysis, we computed and measured different metrics related to CO2 emissions of airplanes and airlines. The outcome should help us to be aware of the impact of our travel decisions. For example: "Does the choice of the airline company have an impact on my carbon footprint?".</p>
 
-<p>Before jumping right into our analysis, let us take the time to explain to you how we started. The first thing that we needed was information about different existing aircraft models and their characteristics, and we luckily found <a href="https://en.wikipedia.org/wiki/Fuel_economy_in_aircraft">this wikipedia page</a>. We parsed it (we spare you the details beacause you are here to read a story, not a user manual) and added a crucial missing information: the CO2 emissions in kg/100km as well as the CO2 emissions in kg/100km per seat, for every aircraft model.</p>
+<p>Before jumping right into our analysis, let us take the time to explain to you how we started. The first thing that we needed was information about different existing aircraft models and their characteristics, and we luckily found <a href="https://en.wikipedia.org/wiki/Fuel_economy_in_aircraft" target="_blank">this wikipedia page</a>. We parsed it (we spare you the details beacause you are here to read a story, not a user manual) and added a crucial missing information: the CO2 emissions in kg/100km as well as the CO2 emissions in kg/100km per seat, for every aircraft model.</p>
 
-<p>Briefly, we added these fields thanks to one of our team member chemestry memories from high school (if you REALLY feel like we are missing some details, look at <a href="https://nbviewer.jupyter.org/github/Jmion/aviation-co2-impact/blob/master/Milestone2.ipynb?flush_cache=true">this</a>).</p>
+<p>Briefly, we added these fields thanks to one of our team member chemestry memories from high school (if you REALLY feel like we are missing some details, look at <a href="https://nbviewer.jupyter.org/github/Jmion/aviation-co2-impact/blob/master/Milestone2.ipynb?flush_cache=true" target="_blank">this</a>).</p>
 
 <p>To be able to fully understand our beautiful story, you will still need a few informations about the data we worked with (hang on, we are almost there). The aircraft are classified in five different categories : commuter, regional, short haul, medium haul, long haul.</p>
       <p>Each category corresponds to a specific sector size. The sector of an aircraft is its maximum range without re-fueling. Here is a table showing the sector size associated to each category of aircraft:</p>
-      <div id="table" >
-          <thead>
+      <div>
+        <table class="table table-striped" style="max-width: 20vw;">
+          <thead class="thead-dark">
             <tr class="header">
               <th>Category</th>
               <th>Sector</th>
@@ -95,7 +97,8 @@
 
 
 <div class="w3-content w3-container w3-padding-64" id="part1-analysis">
-  <h3 class="w3-center">ANALYSIS PART 1</h3>
+  <h3 class="w3-center">CHAPTER 1</h3>
+  <p class="w3-center"><em>Size matters</em></p>
   
 <div>
       
@@ -123,7 +126,7 @@
 
       <ul>
       <li>Aircrafts that travel longer distances have usually more seats</li>
-      <li>Aircrafts with sector size between 2000km and 6000km are the less polluant in terms of CO2 emission per seat</li>
+      <li>Aircrafts with sector size between 2000km and 6000km pollute less in terms of CO2 emission per seat</li>
       <li>Aircrafts with few seats tend to have bigger CO2 emissions per seat</li>
       </ul>
 
@@ -137,19 +140,17 @@
 
       <p>This is reassuring. For every category, planes are becoming more fuel efficient. However, there is a noticeable difference between categories. While short haul aircrafts are decreasing from 4.3% per year, regional aircrafts are decreasing from more than 9% a year.</p>
 
-      <h4 class="w3-center">CONCLUSION PART 1</h4>
-
-      <p>With our analysis, we found an “ideal” distance to travel: more than 2000km. Longer distances (over 8000km) pollute more, but we think that travelling with stop overs is not a solution because it would probably increase the total travel distance.</p>
+      <p>With this analysis, we found an “ideal” distance to travel: more than 2000km. Longer distances (over 8000km) pollute more, but we think that travelling with stop overs is not a solution because it would probably increase the total travel distance.</p>
       <p>Comparing the CO2 emissions of the aviation industry with cars, aviation remains a more ecological way of transportation when traveling alone. In 2020, newly registered cars need to have an on-average CO2 production lower than 9.5 kg/100km. Currently, the limit is 13kg/100km.</p>
-      <p>(reference: <a href="https://www.bfe.admin.ch/bfe/fr/home/efficacite/mobilite/prescriptions-concernant-les-emissions-de-co2-des-voitures-de-to.html">https://www.bfe.admin.ch/bfe/fr/home/efficacite/mobilite/prescriptions-concernant-les-emissions-de-co2-des-voitures-de-to.html</a>)</p>
+      <p>(reference: <a href="https://www.bfe.admin.ch/bfe/fr/home/efficacite/mobilite/prescriptions-concernant-les-emissions-de-co2-des-voitures-de-to.html" target="_blank">https://www.bfe.admin.ch/bfe/fr/home/efficacite/mobilite/prescriptions-concernant-les-emissions-de-co2-des-voitures-de-to.html</a>)</p>
     </div>
   
 </div>
 
 <!-- Container (Portfolio Section) -->
 <div class="w3-content w3-container w3-padding-64" id="part2-analysis">
-  <h3 class="w3-center">ANALYSIS PART 2</h3>
-  <p class="w3-center"><em>Which airlines should we avoid, which one should be chosen</em></p>
+  <h3 class="w3-center">CHAPTER 2</h3>
+  <p class="w3-center"><em>The chosen one</em></p>
     <div>
 
       <p>Now that we have a good understanding of the relation between distance and carbon emissions, we would like to identify what type of traffic is the most polluting. We are also interested in finding the factors, if any, that make some airlines less polluant than others.</p>
@@ -163,16 +164,20 @@
       Config = Pax (passenger)
       Operator Category = Airline, Leasing Company, Business Airline</code></pre>
       <p>You may be wondering why we are considering three operator categories, given that airlines are our main focus. Well, given how often Airlines lease aircrafts to operate their flights, considering leasing company will allow us to include another large player in the passenger transport industry. To give an example of large airlines leasing flights, we can cite the example of Norwegian. During the summer 2018, Norwegian saw part of its Boeing 787 fleet grounded due to issues with their high-bypass turbofan engine, the “Rolls Royce Trent 1000”. To still be able to operate flights from London to New York, Norwegian used wet leasing from High Fly with A380 aircrafts.</p>
+      
+      <div id="tweet">
 
-      <blockquote class="twitter-tweet center" data-lang="en"><p lang="en" dir="ltr">Looks like Norwegian is leasing the 
-        <a href="https://twitter.com/hifly_airline?ref_src=twsrc%5Etfw">@hifly_airline</a> 
-        A380 to help get things back to normal after disruptions caused by 
-        <a href="https://twitter.com/hashtag/GatwickDrones?src=hash&amp;ref_src=twsrc%5Etfw">#GatwickDrones</a>.
-        <a href="https://t.co/87PiUXdaL6">https://t.co/87PiUXdaL6</a> 
-        <a href="https://t.co/NCOJAbgRYK">pic.twitter.com/NCOJAbgRYK</a>
-        </p>&mdash; Flightradar24 (@flightradar24) <a href="https://twitter.com/flightradar24/status/1076486204407889920?ref_src=twsrc%5Etfw">December 22, 2018</a>
-      </blockquote>
-      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <blockquote class="twitter-tweet center" data-lang="en"><p lang="en" dir="ltr">Looks like Norwegian is leasing the 
+          <a href="https://twitter.com/hifly_airline?ref_src=twsrc%5Etfw" target="_blank">@hifly_airline</a> 
+          A380 to help get things back to normal after disruptions caused by 
+          <a href="https://twitter.com/hashtag/GatwickDrones?src=hash&amp;ref_src=twsrc%5Etfw" target="_blank">#GatwickDrones</a>.
+          <a href="https://t.co/87PiUXdaL6" target="_blank">https://t.co/87PiUXdaL6</a> 
+          <a href="https://t.co/NCOJAbgRYK" target="_blank">pic.twitter.com/NCOJAbgRYK</a>
+          </p>&mdash; Flightradar24 (@flightradar24) <a href="https://twitter.com/flightradar24/status/1076486204407889920?ref_src=twsrc%5Etfw" target="_blank">December 22, 2018</a>
+        </blockquote>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+      </div>
 
       <p>Wet leasing is a lot different than leasing, because the leasing company provides crew, pilots, maintenance, fuel, service, and even aircraft certification.</p>
       <p>In addition to this, including business airlines will allow us to consider more of the private sector of private jets.</p>
@@ -201,7 +206,7 @@
 
       <p>We can see that most of the aircrafts that pollute a lot are used for regional flights. The worst aircrafts with regards to pollution are the Bombardier CRJ-200 and CRJ-100. The picture below is one of a CRJ-200.</p>
 
-      <img class="center" src="data/bombardier.jpg"/>
+      <img id="bombardier" class="center" src="data/bombardier.jpg"/>
 
       <p>These small jets are used to connect small airports to main hubs, and this brings back what we said in part 1, where we found out that small distances are the worst.</p>
       <p>Now that our analysis about big polluters is over, we want to know who are the heroes of aviation, the ones that allow people to travel without polluting too much.</p>
@@ -234,8 +239,8 @@
     </div>
 
 <div class="w3-content w3-container w3-padding-64" id="part3-analysis">
-  <h3 class="w3-center">ANALYSIS PART 3</h3>
-  <p class="w3-center"><em>Geographical trends in aviation CO2 emissions</em></p>
+  <h3 class="w3-center">CHAPTER 3</h3>
+  <p class="w3-center"><em>A little bit of geography</em></p>
     
     <div>
       <p>So far we took into account the distance, the type of aircraft and the airlines. One logic way to expand our analysis is to see what does that represents in terms of countries.</p>
@@ -273,23 +278,22 @@
       <iframe class="center" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~AndreaScalisi/22.embed"></iframe>
       
       <p>The map looks good and we can say that our first hypothesis seems to be true.</p>
-      <p>However, we are once again not able to show that he higher the GDP per capita is, the more a flight pollutes per seat with a regression.</p>
+      <p>However, we are once again not able to show that the higher the GDP per capita is, the more a flight pollutes per seat with a regression.</p>
 
       <img class="plot center" src="data/CO2_seat_GPD.png">
 
       <p>To go further, we tried a regression betwenn the number of planes and and the GPD per capita. In that case, we can say that the trend, Countries with higher GDP per capita tend to have more airplanes, is statistically relevant.</p>
 
       <img class="plot center" src="data/GPD_vs_number_planes.png">
-      <h4 class="w3-center">CONCLUSION PART 3</h4>
 
-      <p>We can see several things. First, there is big differences between countries in terms of number of airplanes and consequently air traffic. Secondly, there is indeed a group of rich country that pollute more. That could be obvious things but here we have numbers and statistics to show that.</p>
+      <p>We found several things in this chapter. First, there is big differences between countries in terms of number of airplanes and consequently air traffic. Secondly, there is indeed a group of rich country that pollute more. That could be obvious things but here we have numbers and statistics to show that.</p>
 
     </div>
 </div>
 
 <div class="w3-content w3-container w3-padding-64" id="part4-analysis">
-  <h3 class="w3-center">ANALYSIS PART 4</h3>
-  <p class="w3-center"><em>Is there some better flight route for a Swiss traveller ? </em></p>
+  <h3 class="w3-center">CHAPTER 4</h3>
+  <p class="w3-center"><em>Home Swiss home</em></p>
     <div>
       <p>The last aspect that we want to explore with you are the flight routes. As we are based on Switzerland, we take into account only the flight route from Swiss airport.</p>
       <p>We start with the long distance routes, so the one that go outside of the Europe.</p>
@@ -323,9 +327,9 @@
 <div class="w3-content w3-container w3-padding-64" id="conclusion">
   <h3 class="w3-center">WHAT DID WE LEARN?</h3>
   <div id="conclusion">
-    <p>The analysis show us several factors that can reduce our CO2 emissions when we travel. Let summarize the elements found :</p>
+    <p>The analysis show us several factors that can reduce our CO2 emissions when we travel. Let summarize the elements found:</p>
     <ol>
-      <li>The distance has an influence CO2 emissions per kilometer. We found that is betthe ideal distance to travel more than 2000 km. So, we think that we should avoid to do a lot of short flight. Especially regional jets are not good in terms of CO2 emissions.</li>
+      <li>The distance has an influence on CO2 emissions per kilometer. We found that the ideal distance to travel is more than 2000 km. So, we think that we should avoid to do a lot of short flight. Especially regional jets are not good in terms of CO2 emissions.</li>
       <li>The company you choose has an impact. For sure, you sometimes have no choice, but it would be good to look at the ecological footprint of a company if you care about the environment. It would be good that all online flight comparator could give an estimation of this factor.</li>
     </ol>
       
@@ -355,35 +359,24 @@
 
   <div class="w3-row w3-padding-32 w3-section">
     <div class="w3-col m2 w3-container">
-      <img src="./data/bastien.jpg" class="w3-image w3-round" style="width:100%">
+      <img src="./data/bastien.jpg" class="w3-image w3-round" style="width:100%; margin-bottom:3vh">
       <img src="./data/jeremy.jpg" class="w3-image w3-round" style="width:100%">
     </div>
     <div class="w3-col m2 w3-container">
-      <img src="./data/johan.jpg" class="w3-image w3-round" style="width:100%">
+      <img src="./data/johan.jpg" class="w3-image w3-round" style="width:100%; margin-bottom:3vh">
       <img src="./data/andrea.jpg" class="w3-image w3-round" style="width:100%">
     </div>
     <div class="w3-col m8 w3-panel">
       <div class="w3-large w3-margin-bottom">
-        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: bastien.beuchat@epfl.ch<br>
-        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: jeremy.mion@epfl.ch<br>
-        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: johan.barthas@epfl.ch<br>
-        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: andrea.scalisi@epfl.ch<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> 
+        Email: <a href = "mailto: bastien.beuchat@epfl.ch">bastien.beuchat@epfl.ch</a><br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> 
+        Email: <a href = "mailto: jeremy.mion@epfl.ch">jeremy.mion@epfl.ch</a><br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> 
+        Email: <a href = "mailto: johan.barthas@epfl.ch">johan.barthas@epfl.ch</a><br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> 
+        Email: <a href = "mailto: andrea.scalisi@epfl.ch">andrea.scalisi@epfl.ch</a><br>
       </div>
-      <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave us a note:</p>
-      <form action="/action_page.php" target="_blank">
-        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
-          <div class="w3-half">
-            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-          </div>
-          <div class="w3-half">
-            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
-          </div>
-        </div>
-        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-        <button class="w3-button w3-black w3-right w3-section" type="submit">
-          <i class="fa fa-paper-plane"></i> SEND MESSAGE
-        </button>
-      </form>
     </div>
   </div>
 </div>
@@ -391,7 +384,7 @@
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
   <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
 </footer>
  
 <script>

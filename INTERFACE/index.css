@@ -44,8 +44,35 @@ p {
 	text-justify: inter-word;
 }
 
+h4 {
+  margin-top: 5vh;
+  margin-bottom: 2vh;
+}
+
 .center {
 	display: block;
 	margin-left: auto;
-	margin-right: auto;
+  margin-right: auto;
+  max-width: 90vw;
   }
+
+#bombardier{
+  max-width: 40vw;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+#tweet {
+  align-items: center;
+  align-content: center;
+  max-width: 25vw;
+  display: inline-block;
+}
+
+.twitter-tweet{
+  display: inline-block;
+  align-items: center;
+  align-content: center;
+  max-width: 25vw;
+  align-self: center;
+}
