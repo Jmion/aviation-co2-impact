@@ -63,9 +63,12 @@ h4 {
 }
 
 .twitter-tweet{
-  display: inline-block;
-  align-items: center;
-  align-content: center;
   max-width: 25vw;
-  align-self: center;
+  margin: auto;
+}
+
+.table{
+  margin: auto;
+  max-width: 20vw;
+  margin-bottom: 3vh;
 }

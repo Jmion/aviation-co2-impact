@@ -21,7 +21,7 @@
     <a href="#top" class="w3-bar-item w3-button">TOP</a>
     <a href="#conclusion" class="w3-bar-item w3-button w3-hide-small">CONCLUSION</a>
     <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
-    
+
   </div>
 
   <!-- Navbar on small screens -->
@@ -84,7 +84,7 @@
         </table>
       </div>
       <p>Also, we will be talking a lot about “pollution”. For the sake of this analysis, we will consider that “polluting more or less” means that more or less kilogram of CO2 is emitted per passenger for every 100km that he/she flies.</p>
-      <p>On a first sight, with a short simple preliminary analysis, short haul aircrafts seem to pollute a little bit less. Our hypothesis is that short haul flights have less material to carry around. For example, on short haul flights, a fewer bathrooms on board might be sufficient, while long haul flights are operated by aircrafts that have two aisles, more bathrooms and are usually a three classes configuration. Furthermore, depending on the destination, long haul aircrafts are equipped with life rafts, and other emergency equipment that is not required to be carried on board of short haul flights. People traveling long distances also tend to pack more, making their luggage and the aircraft heavier. Finally, long haul aircrafts need to carry more fuel for longer distance flights.</p>
+      <p>On a first sight, with a short simple preliminary analysis, short haul aircraft seem to pollute a little bit less. Our hypothesis is that short haul flights have less material to carry around. For example, on short haul flights, a fewer bathrooms on board might be sufficient, while long haul flights are operated by aircraft that have two aisles, more bathrooms and are usually a three classes configuration. Furthermore, depending on the destination, long haul aircraft are equipped with life rafts, and other emergency equipment that is not required to be carried on board of short haul flights. People traveling long distances also tend to pack more, making their luggage and the aircraft heavier. Finally, long haul aircraft need to carry more fuel for longer distance flights.</p>
       <p>But this is only an observation based on the mean carbon emissions per seat for each category of aircraft. Let’s then dig a little bit further: buckle up and enjoy the journey !</p>
 
 </div>
@@ -99,9 +99,8 @@
 <div class="w3-content w3-container w3-padding-64" id="part1-analysis">
   <h3 class="w3-center">CHAPTER 1</h3>
   <p class="w3-center"><em>Size matters</em></p>
-  
-<div>
-      
+
+
       <p>The first thing that interested us was to see if there is a relation between the CO2 emissions of an aircraft and its sector size. Obviously, if we simply look at the the mean CO2 emissions in kg/km, the results will be biased. Why ? Well, look at this:</p>
 
       <img class="plot center" src="data/mean_seat_sector.png">
@@ -115,8 +114,8 @@
 
       <img class="plot center" src="data/CO2_seat_sector.png">
 
-      <p>Indeed, regional and commuter aircrafts are messy. Also, one short haul aircraft is an outlier: it is a Quest Kodiak, a plane with only 9 seats which explain its CO2 emissions.</p>
-      <p>About regional and commuter aircrafts, some models have very few seats as well, for short distances. This has a direct impact on the CO2 emissions per seat and explain why our graph is so messy.</p>
+      <p>Indeed, regional and commuter aircraft are messy. Also, one short haul aircraft is an outlier: it is a Quest Kodiak, a plane with only 9 seats which explain its CO2 emissions.</p>
+      <p>About regional and commuter aircraft, some models have very few seats as well, for short distances. This has a direct impact on the CO2 emissions per seat and explain why our graph is so messy.</p>
       <p>If you think the same way as we do, you would appreciate to see the relation between CO2 emission per seat and the number of seats of an aircraft. Well, please, be our guest and look at this:</p>
 
       <img class="plot center" src="data/CO2_seat_number_seat.png">
@@ -125,12 +124,12 @@
       <p>Let’s wrap up what we got so far:</p>
 
       <ul>
-      <li>Aircrafts that travel longer distances have usually more seats</li>
-      <li>Aircrafts with sector size between 2000km and 6000km pollute less in terms of CO2 emission per seat</li>
-      <li>Aircrafts with few seats tend to have bigger CO2 emissions per seat</li>
+      <li>aircraft that travel longer distances have usually more seats</li>
+      <li>aircraft with sector size between 2000km and 6000km pollute less in terms of CO2 emission per seat</li>
+      <li>aircraft with few seats tend to have bigger CO2 emissions per seat</li>
       </ul>
 
-      <p>One aspect that we did not take into account is the build date of the aircrafts. Indeed, we could hope that more recent planes are more efficient in terms of carbon emissions. But instead of hoping, let’s find out !</p>
+      <p>One aspect that we did not take into account is the build date of the aircraft. Indeed, we could hope that more recent planes are more efficient in terms of carbon emissions. But instead of hoping, let’s find out !</p>
 
       <h4 class="w3-center">EVOLUTION OF CARBON EMISSIONS THROUGH THE YEARS</h4>
 
@@ -138,29 +137,44 @@
 
       <img class="plot center" src="data/CO2_first_flight.png">
 
-      <p>This is reassuring. For every category, planes are becoming more fuel efficient. However, there is a noticeable difference between categories. While short haul aircrafts are decreasing from 4.3% per year, regional aircrafts are decreasing from more than 9% a year.</p>
+      <p>This is reassuring. For every category, planes are becoming more fuel efficient. However, there is a noticeable difference between categories. While short haul aircraft are decreasing from 4.3% per year, regional aircraft are decreasing from more than 9% a year.</p>
 
       <p>With this analysis, we found an “ideal” distance to travel: more than 2000km. Longer distances (over 8000km) pollute more, but we think that travelling with stop overs is not a solution because it would probably increase the total travel distance.</p>
       <p>Comparing the CO2 emissions of the aviation industry with cars, aviation remains a more ecological way of transportation when traveling alone. In 2020, newly registered cars need to have an on-average CO2 production lower than 9.5 kg/100km. Currently, the limit is 13kg/100km.</p>
       <p>(reference: <a href="https://www.bfe.admin.ch/bfe/fr/home/efficacite/mobilite/prescriptions-concernant-les-emissions-de-co2-des-voitures-de-to.html" target="_blank">https://www.bfe.admin.ch/bfe/fr/home/efficacite/mobilite/prescriptions-concernant-les-emissions-de-co2-des-voitures-de-to.html</a>)</p>
-    </div>
-  
+
+
 </div>
+
+<div class="w3-row w3-center w3-dark-grey w3-padding-16">
+    <div class="w3-third w3-section">
+      <span class="w3-xlarge">2000km - 8000km</span><br>
+      Ideal travel distance
+    </div>
+    <div class="w3-third w3-section">
+      <span class="w3-xlarge">7.14 kg/100km</span><br>
+      Average CO2 emissions per seat of all aircraft
+    </div>
+    <div class="w3-third w3-section">
+      <span class="w3-xlarge">9.45%</span><br>
+      CO2 emissions per seat decrease per year for regional aircraft
+    </div>
+  </div>
 
 <!-- Container (Portfolio Section) -->
 <div class="w3-content w3-container w3-padding-64" id="part2-analysis">
   <h3 class="w3-center">CHAPTER 2</h3>
   <p class="w3-center"><em>The chosen one</em></p>
-    <div>
 
-      <p>Now that we have a good understanding of the relation between distance and carbon emissions, we would like to identify what type of traffic is the most polluting. We are also interested in finding the factors, if any, that make some airlines less polluant than others.</p>
+
+      <p>Now that we have a good understanding of the relation between distance and carbon emissions, we would like to identify what type of traffic is the most polluting. We are also interested in finding the factors, if any, that make some airlines less pollutant than others.</p>
       <p>For this part, we will need to get our hands on the fleets of each airline in details. To do that, we obviously need a dataset containing informations about airlines and their fleets. Well thanks to planespotter.net, we have all the informations that we need, and even more. They nicely agreed to share their data with us for research purposes only, and we would like to thank them again for that.</p>
-      <p>Since you are probably curious, here is a short parenthesis about one issue was that we encountered when merging all the data that we had. Some aircrafts of the same model can be equipped with different number of seats. This means that the overall mass of the aircraft is slightly different and it leads to a slight difference in fuel burn / km. Since we needed to have unique aircrafts models (otherwise we would not know which version of a given model to take into account), we solved this issue by grouping the all the same aircrafts models together and averaging their values (i.e. a mean). Once it was done, we had a huge dataset with a lot of informations in it.</p>
+      <p>Since you are probably curious, here is a short parenthesis about one issue was that we encountered when merging all the data that we had. Some aircraft of the same model can be equipped with different number of seats. This means that the overall mass of the aircraft is slightly different and it leads to a slight difference in fuel burn / km. Since we needed to have unique aircraft models (otherwise we would not know which version of a given model to take into account), we solved this issue by grouping the all the same aircraft models together and averaging their values (i.e. a mean). Once it was done, we had a huge dataset with a lot of informations in it.</p>
 
       <p>Now that you know the story behind our data, let’s have a look at what we are interested in, starting with the trends per operator.</p>
-      <p>The criterias of the fleet of aircrafts that we are interested in are:</p>
+      <p>The criterias of the fleet of aircraft that we are interested in are:</p>
 
-      <p>      
+      <p>
       <pre><code>
         Status = Active (in operation)
         Config = Pax (passenger)
@@ -168,13 +182,13 @@
       </code></pre>
       </p>
 
-      <p>You may be wondering why we are considering three operator categories, given that airlines are our main focus. Well, given how often Airlines lease aircrafts to operate their flights, considering leasing company will allow us to include another large player in the passenger transport industry. To give an example of large airlines leasing flights, we can cite the example of Norwegian. During the summer 2018, Norwegian saw part of its Boeing 787 fleet grounded due to issues with their high-bypass turbofan engine, the “Rolls Royce Trent 1000”. To still be able to operate flights from London to New York, Norwegian used wet leasing from High Fly with A380 aircrafts.</p>
-      
-        <blockquote class="twitter-tweet center" data-lang="en"><p lang="en" dir="ltr">Looks like Norwegian is leasing the 
-          <a href="https://twitter.com/hifly_airline?ref_src=twsrc%5Etfw" target="_blank">@hifly_airline</a> 
-          A380 to help get things back to normal after disruptions caused by 
+      <p>You may be wondering why we are considering three operator categories, given that airlines are our main focus. Well, given how often Airlines lease aircraft to operate their flights, considering leasing company will allow us to include another large player in the passenger transport industry. To give an example of large airlines leasing flights, we can cite the example of Norwegian. During the summer 2018, Norwegian saw part of its Boeing 787 fleet grounded due to issues with their high-bypass turbofan engine, the “Rolls Royce Trent 1000”. To still be able to operate flights from London to New York, Norwegian used wet leasing from High Fly with A380 aircraft.</p>
+
+        <blockquote class="twitter-tweet center" data-lang="en"><p lang="en" dir="ltr">Looks like Norwegian is leasing the
+          <a href="https://twitter.com/hifly_airline?ref_src=twsrc%5Etfw" target="_blank">@hifly_airline</a>
+          A380 to help get things back to normal after disruptions caused by
           <a href="https://twitter.com/hashtag/GatwickDrones?src=hash&amp;ref_src=twsrc%5Etfw" target="_blank">#GatwickDrones</a>.
-          <a href="https://t.co/87PiUXdaL6" target="_blank">https://t.co/87PiUXdaL6</a> 
+          <a href="https://t.co/87PiUXdaL6" target="_blank">https://t.co/87PiUXdaL6</a>
           <a href="https://t.co/NCOJAbgRYK" target="_blank">pic.twitter.com/NCOJAbgRYK</a>
           </p>&mdash; Flightradar24 (@flightradar24) <a href="https://twitter.com/flightradar24/status/1076486204407889920?ref_src=twsrc%5Etfw" target="_blank">December 22, 2018</a>
         </blockquote>
@@ -182,14 +196,14 @@
 
       <p>Wet leasing is a lot different than leasing, because the leasing company provides crew, pilots, maintenance, fuel, service, and even aircraft certification.</p>
       <p>In addition to this, including business airlines will allow us to consider more of the private sector of private jets.</p>
-      <p>Talking about aircrafts types, we had a look at the Combi aircrafts type. For those of you that are not aviation experts, here is the definition from Wikipedia of a Combi aircraft :</p>
+      <p>Talking about aircraft types, we had a look at the Combi aircraft type. For those of you that are not aviation experts, here is the definition from Wikipedia of a Combi aircraft :</p>
 
       <p><em>“Combi aircraft in commercial aviation are aircraft that can be used to carry either passengers, as an airliner, or cargo as a freighter, and may have a partition in the aircraft cabin to allow both uses at the same time in a mixed passenger/freight combination.”</em></p>
-      <p>In our dataset, very few aircrafts are flying a Combi setup. Amongst those aircrafts, almost half of them belong to the air force. We decided to not consider them since they are too few to be of any impact in our analysis.</p>
-      
+      <p>In our dataset, very few aircraft are flying a Combi setup. Amongst those aircraft, almost half of them belong to the air force. We decided to not consider them since they are too few to be of any impact in our analysis.</p>
+
       <h4 class="w3-center">Let’s look at the largest airlines in the world</h4>
-      
-      <p>We want to look only at the “big” airlines. Let’s say that a big airline has at least 30 aircrafts in its fleet. 30 is an arbitrary number that narrow down all of our airlines from almost 2000 to approximately 200. We thought that keeping 10% of all of our airlines for this analysis was a reasonable choice, and this explains the choice of “30”. Looking at small companies is out of the scope of this analysis.</p>
+
+      <p>We want to look only at the “big” airlines. Let’s say that a big airline has at least 30 aircraft in its fleet. 30 is an arbitrary number that narrow down all of our airlines from almost 2000 to approximately 200. We thought that keeping 10% of all of our airlines for this analysis was a reasonable choice, and this explains the choice of “30”. Looking at small companies is out of the scope of this analysis.</p>
       <p>Now that we have selected our big airlines, let’s look at their individual average CO2 production.</p>
 
       <iframe class="center" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~AndreaScalisi/4.embed"></iframe>
@@ -197,123 +211,147 @@
       <p>If you look closely, you will see that some company names are very similar. Here is the trick : most of these airlines are subsidiaries of larger airlines and are the regional operators. For example, Lufthansa CityLine is a company that belongs entirely to Lufthansa and operates flights on their behalf. More precisely, most of Lufthansa CityLine fleet are Bombardier CRJ-900. The CRJ-900 is a regional jet developed by Bombardier that entered service in 2001.</p>
       <p>Pro tip: Aviation geek jargon <em>“A regional jet (RJ) is a jet airliner and a regional airliner with less than 100 seats.”</em> (source: <a href= "https://en.wikipedia.org/wiki/Regional_jet">wikipedia</a>)</p>
       <p>From what we saw on this graph, a new “arbitrary” number came to our minds: 8. 8 is the threshold that we chose, that corresponds to the mean CO2/100km emission per seat above which an airline is considered to be a big polluter.</p>
-      <p>That being said, let’s look at what aircrafts are mostly flown by the airlines from our big polluter list.</p>
-      
+      <p>That being said, let’s look at what aircraft are mostly flown by the airlines from our big polluter list.</p>
+
       <iframe class="center" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~AndreaScalisi/6.embed"></iframe>
-  
-      <p>Apparently, airlines that pollute a lot per passenger (still CO2 kg/100km) are mostly operating Bombardier CRJ (Canadair Regional Jet) or Embraer ERJ (Embraer Regional Jet). These are aircrafts that were designed at the turn of the century and that are not engineered to fly long distances. And if we look look closely at these mostly used aircrafts:</p>
-      
+
+      <p>Apparently, airlines that pollute a lot per passenger (still CO2 kg/100km) are mostly operating Bombardier CRJ (Canadair Regional Jet) or Embraer ERJ (Embraer Regional Jet). These are aircraft that were designed at the turn of the century and that are not engineered to fly long distances. And if we look look closely at these mostly used aircraft:</p>
+
       <iframe class="center" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~AndreaScalisi/8.embed"></iframe>
 
-      <p>We can see that most of the aircrafts that pollute a lot are used for regional flights. The worst aircrafts with regards to pollution are the Bombardier CRJ-200 and CRJ-100. The picture below is one of a CRJ-200.</p>
+      <p>We can see that most of the aircraft that pollute a lot are used for regional flights. The worst aircraft with regards to pollution are the Bombardier CRJ-200 and CRJ-100. The picture below is one of a CRJ-200.</p>
 
       <img id="bombardier" class="center" src="data/bombardier.jpg"/>
 
       <p>These small jets are used to connect small airports to main hubs, and this brings back what we said in part 1, where we found out that small distances are the worst.</p>
       <p>Now that our analysis about big polluters is over, we want to know who are the heroes of aviation, the ones that allow people to travel without polluting too much.</p>
-      
+
       <h4 class="w3-center">Small polluters</h4>
-      
+
       <p>Again, our criteria for an airline to be a “small polluter” is arbitrary. We chose the following treshold : less than 5.55 kg/100km of CO2 per seat. Let’s break the suspense, here is a list of the small polluters among the biggest airlines:</p>
-      
+
       <img class="center" src="data/small_polluters.png"/>
-      
+
       <p>From looking at this list, we can see that most of them are low cost airlines. This could be explained by the fact that low cost airlines tend to squeeze more seats into an aircraft and will reduce what is included with the flight, which would probably reduce the total mass of the plane. This question would require further research., and we will discuss it at the end of our analysis.</p>
-      <p>Let’s look at what aircrafts are mostly flown by the airlines in our small polluter list.</p>
+      <p>Let’s look at what aircraft are mostly flown by the airlines in our small polluter list.</p>
 
       <iframe class="center" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~AndreaScalisi/10.embed"></iframe>
 
-      <p>We can see that this is mostly recent aircrafts which, as said in part one, pollute less. The Neo and Max family at Airbus and Boeing respectively are the newest kind of aircrafts that are being produced.</p>
-      <p>If our statement about more recent airplanes polluting less is true, what about the sector of those less polluant aircrafts ?</p>
-      
+      <p>We can see that this is mostly recent aircraft which, as said in part one, pollute less. The Neo and Max family at Airbus and Boeing respectively are the newest kind of aircraft that are being produced.</p>
+      <p>If our statement about more recent airplanes polluting less is true, what about the sector of those less pollutant aircraft ?</p>
+
       <iframe class="center" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~AndreaScalisi/12.embed"></iframe>
-      
-      <p>From the graph above we can see that the aircraft that is the most flown by the small polluters has a range of less than 3000km. Except for two of the aircrafts (which are not used that much), they all lay within the “optimal” range found in part 1. That makes us happy (:</p>
-      <p>Finally, let’s compare the sector of aircrafts operated by big polluters and the sector of aircrafts operated by small polluters.</p>
-      
+
+      <p>From the graph above we can see that the aircraft that is the most flown by the small polluters has a range of less than 3000km. Except for two of the aircraft (which are not used that much), they all lay within the “optimal” range found in part 1. That makes us happy (:</p>
+      <p>Finally, let’s compare the sector of aircraft operated by big polluters and the sector of aircraft operated by small polluters.</p>
+
       <img class="plot center" src="data/nb_aircraft_sector_big_small.png">
-      
-      <p>We can see from the histogram above that airlines that are polluting less are operating flights with aircrafts that are designed to fly further.</p>
+
+      <p>We can see from the histogram above that airlines that are polluting less are operating flights with aircraft that are designed to fly further.</p>
       <p>We can conclude from this analysis that we have found significant differences between regional airlines and low cost airlines. Flying with a low cost airline will most likely reduce your CO2 emissions per kilometer compared to fly with a regional jet. The reason of being of these two types of flights is entirely different. The purpose of regional flights is to allow passengers to stop over in one of the main hubs of the airline before continuing on with another flight. So these flights can be more expensive (burn more fuel) than flights operated by a low cost airline.</p>
-      <p>Low cost are on the other hand trying to minimize their operating costs. Since fuel expenses represent approximately 25% of their operating costs (according to <a href="https://www.statista.com/statistics/591285/aviation-industry-fuel-cost/">https://www.statista.com/statistics/591285/aviation-industry-fuel-cost/</a>), low cost airlines have a large interest in operating fleets of aircrafts that burn less fuel.</p>
+      <p>Low cost are on the other hand trying to minimize their operating costs. Since fuel expenses represent approximately 25% of their operating costs (according to <a href="https://www.statista.com/statistics/591285/aviation-industry-fuel-cost/">https://www.statista.com/statistics/591285/aviation-industry-fuel-cost/</a>), low cost airlines have a large interest in operating fleets of aircraft that burn less fuel.</p>
       <p>We would like to thank <a href="https://www.planespotters.net/">Planespotters</a> and <a href="https://www.gapminder.org/">Gapminder</a> for providing us the datasets that this research required.</p>
+  </div>
+
+  <div class="w3-row w3-center w3-dark-grey w3-padding-16">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">10.99 kg/100km</span><br>
+        Average CO2 emissions by seat of Air Wisconsin
+      </div>
+      <div class="w3-quarter w3-section">
+          <span class="w3-xlarge">Boeing A220-300</span><br>
+          Least widely-used pollutant aircraft
+        </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge"> 5.16 kg/100km</span><br>
+        Average CO2 emissions by seat of GoAir
+      </div>
+      <div class="w3-quarter w3-section">
+          <span class="w3-xlarge">Bombardier CRJ-100</span><br>
+          Most widely-used pollutant aircraft
+      </div>
     </div>
 
 <div class="w3-content w3-container w3-padding-64" id="part3-analysis">
   <h3 class="w3-center">CHAPTER 3</h3>
   <p class="w3-center"><em>A little bit of geography</em></p>
-    
-    <div>
-      <p>So far we took into account the distance, the type of aircraft and the airlines. One logic way to expand our analysis is to see what does that represents in terms of countries.</p>
-      <p>As a warm-up for this part, let see the numbers of airplanes by countries.</p>
-      <iframe class="center" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~AndreaScalisi/14.embed"></iframe>
+
+      <p>So far we took into account the distance, the type of aircraft and the airlines. One logic way to expand our analysis is to see what that represents in terms of countries.</p>
       
-      <p>Well, US and China have a lot more airplanes than the others. After ensuring that these two huge numbers are not due to a data cleaning error or bad data. Indeed after a bit of Googling we realize that for example Americain Airlines is the largest airline in the world with a huge fleet and there are some really big carriers in those countries.</p>
-      <p>So let's see the rest of the world : </p>
+      <p>However, we noticed that the USA and China have a lot more airplanes than the others (trust us, we ensured that these two huge numbers were not due to a data cleaning error or bad data). 
+        Indeed after a bit of Googling we realized that, for example, Americain Airlines is the largest airline in the world with a huge fleet and there are some really big carriers in those countries.
+        For the sake of visibility, we decided to remove these two countries from our data for this part.
+      </p>
       
+      <p>Let's then see the rest of the world without them: </p>
+
       <iframe class="center" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~AndreaScalisi/16.embed"></iframe>
-      
-      <p>This plot seems to be more representative. But there is some countries with to few airplanes. For example Botswana only has one aircraft. So our datasets do not cover all countries, we decided to put a threshold of 20 aircrafts and drop the countries that are below.</p>
+
+      <p>This plot seems to be quite representative, but there are some countries with too few airplanes. For example Botswana only has one aircraft. So our datasets do not cover all countries, we decided to put a threshold of 20 aircraft and drop the countries that are below.</p>
       <p>Now, we can plot the average CO2 emissions per seat for 100 km for each of the remaining countries.</p>
 
       <iframe class="center" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~AndreaScalisi/18.embed"></iframe>
-      
+
       <p>This representation allows us to see where the other larger players in the aviation market are. Nevertheless, it is hard to see any trend between the number of planes and the CO2 that it is emitted per seat.</p>
-      <p>So we continue our analysis looking at a linear model for this.</p>
+      <p>We continued our analysis looking at a linear model for this, and would have loved to share a successful result with you,
+        but we concluded that there is no linear model that will explain the link between CO2 per seat (kg/100 km) and the number of planes a country has.
+      </p>
 
-      <img class="plot center" src="data/CO2_seat_number_plane.png">
-
-      <p>Well, it is not successful at all. We can only conclude that there is no linear model that will explain the link between CO2 per seat (kg/100 km) and the number of planes a country has.</p>
       <p>However, we can continue our analysis and try to find a factor between countries and average CO2 per seat (kg/100 km). So let's plot it on a map.</p>
 
       <iframe class="center" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~AndreaScalisi/20.embed"></iframe>
 
-      <p>What does this maps show us ? One first limitation that we do not have enough data for the African continent. But even excluding Africans countries, we can observe that Western countries (ie: USA, Canada, European countries) pollute more than the rest of the world. To explain that we can state two hypothesis :</p>
+      <p>What does this maps show us ? One first limitation is that we do not have enough data for the African continent. But even excluding Africans countries, we can observe that Western countries (ie: USA, Canada, European countries) pollute more than the rest of the world. To explain that we can state two hypothesis:</p>
 
       <ol>
-        <li>Higher income allow people to travel more short distances.</li>
-        <li>Poorer countries probably do not have a lot of internals flights.</li>
+        <li>Higher income allow people to travel more short distances</li>
+        <li>Poorer countries probably do not have a lot of internals flights</li>
       </ol>
-      <p>Let's take the first one and show in a map ploting the income by person.</p>
+      <p>Let's take the first one and show it in a map ploting the income by person:</p>
 
       <iframe class="center" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~AndreaScalisi/22.embed"></iframe>
-      
+
       <p>The map looks good and we can say that our first hypothesis seems to be true.</p>
-      <p>However, we are once again not able to show that the higher the GDP per capita is, the more a flight pollutes per seat with a regression.</p>
+      <p>However, we were once again not able to show that the higher the GDP per capita is, the more a flight pollutes per seat with a linear regression.</p>
 
-      <img class="plot center" src="data/CO2_seat_GPD.png">
-
-      <p>To go further, we tried a regression betwenn the number of planes and and the GPD per capita. In that case, we can say that the trend, Countries with higher GDP per capita tend to have more airplanes, is statistically relevant.</p>
+      <p>To go further, we tried a regression between the number of planes and and the GPD per capita. In that case, we can say that the trend, Countries with higher GDP per capita tend to have more airplanes, is statistically relevant.</p>
 
       <img class="plot center" src="data/GPD_vs_number_planes.png">
 
-      <p>We found several things in this chapter. First, there is big differences between countries in terms of number of airplanes and consequently air traffic. Secondly, there is indeed a group of rich country that pollute more. That could be obvious things but here we have numbers and statistics to show that.</p>
+      <p>We found several things in this chapter. First, there are big differences between countries in terms of number of airplanes and consequently air traffic. Secondly, there is indeed a group of rich countries that pollute more. That could be obvious things but here we have numbers and statistics to show that.</p>
 
-    </div>
 </div>
+
+<div class="w3-row w3-center w3-dark-grey w3-padding-16">
+    <div class="w3-third w3-section">
+      <span class="w3-xlarge">5253</span><br>
+      Number of planes of the USA
+    </div>
+    <div class="w3-third w3-section">
+      <span class="w3-xlarge">3388</span><br>
+      Number of planes of China
+    </div>
+    <div class="w3-third w3-section">
+      <span class="w3-xlarge">13988</span><br>
+      Number of planes of the rest of the world
+    </div>
+  </div>
 
 <div class="w3-content w3-container w3-padding-64" id="part4-analysis">
   <h3 class="w3-center">CHAPTER 4</h3>
   <p class="w3-center"><em>Home Swiss home</em></p>
-    <div>
-      <p>The last aspect that we want to explore with you are the flight routes. As we are based on Switzerland, we take into account only the flight route from Swiss airport.</p>
-      <p>We start with the long distance routes, so the one that go outside of the Europe.</p>
-      
-      <img class="plot center" src="data/flights_from_swiss.png">
-      <p>Well we do not see anything on this graph, let's remove the outliers in order to have a better view</p>
+      <p>The last aspect that we want to explore with you are the flight routes. As we are based in Switzerland, we take into account only the flight routes from Swiss airports. 
+        We will start with the long distance routes, in other words the ones that go outside of the Europe.
+         As in the previous chapter, the outliers would affect the visibility on our graphs. This is why we removed them as well.</p>
       <img class="plot center" src="data/flights_from_swiss_no_outliers.png">
-      
+
       <p>We can observe from the map above that flights that are not long hauls will have better CO2 emissions per seat than the long hauls that cross the Atlantic, or Asia. This confirms that flights that fly longer distances will pollute more per kilometer.</p>
       <p>Let's now have a look at the European situation. We plot plot what are the less polluting by km routes from Switzerland to EU countries and we directly remove the outliers which remain the same.</p>
 
       <img class="plot center" src="data/flights_from_swiss_to_EU_no_outliers.png">
 
-      <p>We can see from the graph above that shorter flights tend to use more fuel. This confirms the findings done in the first analysis where it was found that CO2 emissions per seat decrease rapidly when aircrafts increase their flight distance up until 6000 km. It is then not a surprise to see the longer flights on this map having higher CO2 emissions per seat.</p>
+      <p>We can see from the graph above that shorter flights tend to use more fuel. This confirms the findings done in the first analysis where it was found that CO2 emissions per seat decrease rapidly when aircraft increase their flight distance up until 6000 km. It is then not a surprise to see the longer flights on this map having higher CO2 emissions per seat.</p>
       <p>Another element we can see on this plot is that there is better destination to go for if you care about the environment even for similar distances. In fact, we seee a broad range of colors for distances which are similar.</p>
-    </div>
-
-
-
   </div>
 </div>
 
@@ -333,11 +371,11 @@
       <li>The distance has an influence on CO2 emissions per kilometer. We found that the ideal distance to travel is more than 2000 km. So, we think that we should avoid to do a lot of short flight. Especially regional jets are not good in terms of CO2 emissions.</li>
       <li>The company you choose has an impact. For sure, you sometimes have no choice, but it would be good to look at the ecological footprint of a company if you care about the environment. It would be good that all online flight comparator could give an estimation of this factor.</li>
     </ol>
-      
+
     <p>For both aspect the type of aircraft is a big related factor, but companies "choose" the planes they flight and they also can setup its airplanes in different ways. Then a low cost company could have a better CO2 emissions per seats as they try to put more seats in the same aircraft. So should we prefer low cost airlines for environmental issues ? Well, we know that the solution is not easy and that we take only in account the CO2 per seat. Nevertheless, we think that this approach is interesting.</p>
-      
+
     <p>There is also some hope for the future as we see that the technology tends to reduce the CO2 emissions as we can see some clear decrease with time.</p>
-      
+
     <p>We can also see big differences in the differents parts of the world. So as Europeans we can really have an impact on the CO2 emission of the aviation industry.</p>
     <p>We did not discuss the alternatives to fly as train or bus as example. That is not easy to compare other transportation means with our simplistic model for aircraft and these questions need a lot more of other sources of data to have reliable answers.</p>
   </div>
@@ -369,13 +407,13 @@
     </div>
     <div class="w3-col m8 w3-panel">
       <div class="w3-large w3-margin-bottom">
-        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> 
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>
         Email: <a href = "mailto: bastien.beuchat@epfl.ch">bastien.beuchat@epfl.ch</a><br>
-        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> 
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>
         Email: <a href = "mailto: jeremy.mion@epfl.ch">jeremy.mion@epfl.ch</a><br>
-        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> 
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>
         Email: <a href = "mailto: johan.barthas@epfl.ch">johan.barthas@epfl.ch</a><br>
-        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> 
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>
         Email: <a href = "mailto: andrea.scalisi@epfl.ch">andrea.scalisi@epfl.ch</a><br>
       </div>
     </div>
@@ -387,7 +425,7 @@
   <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
 </footer>
- 
+
 <script>
 // Modal Image Gallery
 function onClick(element) {
