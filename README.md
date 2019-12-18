@@ -1,5 +1,20 @@
 # Aviation and global carbon emissions
 
+## Milestone 3
+The data story produced is online at the following url : https://jmion.github.io/aviation-co2-impact/.
+You can find the notebook used to compute all visualisation and numbers that are used for our data story here : **TODO include notebook**.
+
+### Contributions
+Johan Barthas   : coding for chapter 4, writing introduction and conclusion, preparing the poster
+
+Andrea Scalisi  : selecting and plotting graph for the datastory, coding for chapter 1 and 2, writing chapter 1 and 2
+
+Jeremy Mion     : computation C02 consumption, coding for chapter 1, 2 and 3, preparing the presentation
+
+Bastien Beuchat : coding for chapter 4, writing chapter 3 and 4, layout data story
+
+
+
 ## Milestone 2 deliverable 
 All the milestone 2 materials are in the notebook Milestone2.ipynb. As there is some interactive visualization in the notebook, you can find the rendered version here : https://nbviewer.jupyter.org/github/Jmion/aviation-co2-impact/blob/master/Milestone2.ipynb?flush_cache=true
 
