@@ -95,10 +95,10 @@ Only the dataset income_per_person_gdppercapita_ppp_inflation_adjusted.csv was d
 * Week 11 :
   * Extracting main information from Milestone 2 to put in the data story
 * Week 12 :
-  * Writting the text of the data story for questions 1 and 2 (about distance and airlines)
+  * Writing the text of the data story for questions 1 and 2 (about distance and airlines)
   * Plot meaningful information for those questions
 * Week 13:
-  * Writting the text of the data story for questions 2 and 3 (about countries and routes)
+  * Writing the text of the data story for questions 2 and 3 (about countries and routes)
   * Plot meaningful information for those questions
 * Week 14: 
   * Clean the final notebook
