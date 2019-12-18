@@ -14,12 +14,6 @@ Jeremy Mion     : computation C02 consumption, coding for chapter 1, 2 and 3, pr
 Bastien Beuchat : coding for chapter 4, writing chapter 3 and 4, layout data story
 
 
-
-## Milestone 2 deliverable 
-All the milestone 2 materials are in the notebook Milestone2.ipynb. As there is some interactive visualization in the notebook, you can find the rendered version here : https://nbviewer.jupyter.org/github/Jmion/aviation-co2-impact/blob/master/Milestone2.ipynb?flush_cache=true
-
-**Note** : all graphs are not finalized, there could be some missing colorscales or caption.
-
 ## Abstract
 
 Talking about being "eco responsible" is the trend. We are told by newspapers, scientists, social medias and Greta that we should consume less, or at least make efforts. Since in our team, we are true students, we were already talking about the next summer holidays. In the middle of the discussion, we suddenly became worried about a particular aspect of the holidays.
