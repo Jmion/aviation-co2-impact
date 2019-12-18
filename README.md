@@ -39,16 +39,15 @@ We chose four questions that will help us to approach our research theme, which 
   * Is there an ideal distance to travel to reduce our CO2 emissions per km?
   * Are airplanes usually on time? Does this have an impact on CO2 emissions?
   
-## Updated questions - **NEW**
+## Questions
 
 During our analysis, we noticed that it could also be interesting, in addition to the airlines, to focus on carbon emissions by country. We also spent some time trying to look at delays, but we realized that it would produce irrelevant results, since aircrafts tend to catch up departure delays on route, leading to on-time arrivals. It would have been complicated calculating the increase of fuel burn, due to the dependance of multiple variable and the specificity of every aicraft.
 
 * What role does aviation play in the global carbon emissions?
   * Is there an ideal distance to travel to reduce our CO2 emissions per km?
   * Is there significant difference in CO2 emissions between different airlines?
-  * ~~Are airplanes usually on time? Does this have an impact on CO2 emissions?~~
-  * **Is there a significant difference in CO2 emissions between different countries ?**
-  * **Are there better destinations for a Swiss traveller according to the CO2 emissions per kilometer ?** 
+  * Is there a significant difference in CO2 emissions between different countries ?
+  * Are there better destinations for a Swiss traveller according to the CO2 emissions per kilometer ? 
 
 ## Datasets
 
@@ -79,8 +78,6 @@ List of routes (up to 2014) and planes models. *Used for answering the second qu
 Historical data of aircrafts. Dataset partners by Swiss confederation, Bern university, Oxford University 
 
 *Used for answering the 4th question*
-
-**NEW** 
 
 * https://www.planespotters.net
 
