@@ -55,8 +55,6 @@ During our analysis, we noticed that it could also be interesting, in addition t
 
 Even though the aviation industry is quite protective of its data, we were able to find several open source datasets that will help us to achieve our goal:
 
-*Update Milestone 2 : only the dataset used are listed, others that were mentionned in Milestone 1 and not used are removed*
-
 * https://en.wikipedia.org/wiki/Fuel_economy_in_aircraft
 
 By scraping this page, we will infer the following informations: airplanes average seat number and fuel burn (CO2). 
