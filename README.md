@@ -2,7 +2,7 @@
 
 ## Milestone 3
 The data story produced is online at the following url : https://jmion.github.io/aviation-co2-impact/.
-You can find the notebook used to compute all visualisation and numbers that are used for our data story here : **TODO include notebook**.
+You can find the notebook used to compute all visualisation and numbers that are used for our data story here : https://nbviewer.jupyter.org/github/Jmion/aviation-co2-impact/blob/master/Milestone3.ipynb.
 
 ### Contributions
 Johan Barthas   : coding for chapter 4, writing introduction and conclusion, preparing the poster
