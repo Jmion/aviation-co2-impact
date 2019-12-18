@@ -67,12 +67,6 @@ By scraping this page, we will infer the following informations: airplanes avera
 
 List of routes (up to 2014) and planes models. *Used for answering the second question*
 
-* ~~https://www.transtats.bts.gov/databases.asp?Mode_ID=1&Mode_Desc=Aviation&Subject_ID2=0~~
-
-~~Delay information of the US aviation industry. Name of the dataset is Airline On- Time performance data~~
-
-*We did not use this data because we are not looking at whether aircrafts are on time or not anymore.*
-
 * https://opensky-network.org/data/impala
 
 Historical data of aircrafts. Dataset partners by Swiss confederation, Bern university, Oxford University 
