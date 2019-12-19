@@ -52,7 +52,7 @@
 <p>To be able to fully understand our beautiful story, you will still need a few informations about the data we worked with (hang on, we are almost there). The aircraft are classified in five different categories : commuter, regional, short haul, medium haul, long haul.</p>
       <p>Each category corresponds to a specific sector size. The sector of an aircraft is its maximum range without re-fueling. Here is a table showing the sector size associated to each category of aircraft:</p>
       <div>
-        <table class="table table-striped" style="max-width: 20vw;">
+        <table class="table table-striped table-sm" style="max-width: 20vw;">
           <thead class="thead-dark">
             <tr class="header">
               <th>Category</th>
@@ -168,7 +168,7 @@
 
 
       <p>Now that we have a good understanding of the relation between distance and carbon emissions, we would like to identify what type of traffic is the most polluting. We are also interested in finding the factors, if any, that make some airlines less pollutant than others.</p>
-      <p>For this part, we will need to get our hands on the fleets of each airline in details. To do that, we obviously need a dataset containing informations about airlines and their fleets. Well thanks to planespotter.net, we have all the informations that we need, and even more. They nicely agreed to share their data with us for research purposes only, and we would like to thank them again for that.</p>
+      <p>For this part, we will need to get our hands on the fleets of each airline in details. To do that, we obviously need a dataset containing informations about airlines and their fleets. Well thanks to <a href="https://www.planespotters.net/" target="_blank" >planespotter.net</a>, we have all the informations that we need, and even more. They nicely agreed to share their data with us for research purposes only, and we would like to thank them again for that.</p>
       <p>Since you are probably curious, here is a short parenthesis about one issue was that we encountered when merging all the data that we had. Some aircraft of the same model can be equipped with different number of seats. This means that the overall mass of the aircraft is slightly different and it leads to a slight difference in fuel burn / km. Since we needed to have unique aircraft models (otherwise we would not know which version of a given model to take into account), we solved this issue by grouping the all the same aircraft models together and averaging their values (i.e. a mean). Once it was done, we had a huge dataset with a lot of informations in it.</p>
 
       <p>Now that you know the story behind our data, let’s have a look at what we are interested in, starting with the trends per operator.</p>
@@ -196,7 +196,7 @@
 
       <p>Wet leasing is a lot different than leasing, because the leasing company provides crew, pilots, maintenance, fuel, service, and even aircraft certification.</p>
       <p>In addition to this, including business airlines will allow us to consider more of the private sector of private jets.</p>
-      <p>Talking about aircraft types, we had a look at the Combi aircraft type. For those of you that are not aviation experts, here is the definition from Wikipedia of a Combi aircraft :</p>
+      <p>Talking about aircraft types, we had a look at the Combi aircraft type. For those of you that are not aviation experts, here is the <a href="https://en.wikipedia.org/wiki/Combi_aircraft" target="_blank">definition from Wikipedia of a Combi aircraft</a> :</p>
 
       <p><em>“Combi aircraft in commercial aviation are aircraft that can be used to carry either passengers, as an airliner, or cargo as a freighter, and may have a partition in the aircraft cabin to allow both uses at the same time in a mixed passenger/freight combination.”</em></p>
       <p>In our dataset, very few aircraft are flying a Combi setup. Amongst those aircraft, almost half of them belong to the air force. We decided to not consider them since they are too few to be of any impact in our analysis.</p>
@@ -230,9 +230,92 @@
 
       <p>Again, our criteria for an airline to be a “small polluter” is arbitrary. We chose the following treshold : less than 5.55 kg/100km of CO2 per seat. Let’s break the suspense, here is a list of the small polluters among the biggest airlines:</p>
 
-      <img class="center" src="data/small_polluters.png"/>
+      <div>
+        <table class="table table-striped table-sm" style="max-width: 20vw;">
+          <thead class="thead-dark">
+            <tr class="header">
+              <th>Operator</th>
+              <th class="table-center">CO2 per seat kg/100km</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="odd">
+              <td>GoAir</td>
+              <td class="table-center">5.164</td>
+            </tr>
+            <tr class="even">
+              <td>Viva Aerobus</td>
+              <td class="table-center">5.304</td>
+            </tr>
+            <tr class="odd">
+              <td>Frontier Airlines</td>
+              <td class="table-center">5.336</td>
+            </tr>
+            <tr class="even">
+              <td>IndiGo</td>
+              <td class="table-center">5.347</td>
+            </tr>
+            <tr class="odd">
+              <td>Loong Air</td>
+              <td class="table-center">5.377</td>
+            </tr>
+            <tr class="even">
+              <td>AirAsia</td>
+              <td class="table-center">5.403</td>
+            </tr>
+            <tr class="odd">
+              <td>Vistara</td>
+              <td class="table-center">5.414</td>
+            </tr>
+            <tr class="even">
+              <td>VietJetAir</td>
+              <td class="table-center">5.433</td>
+            </tr>
+            <tr class="odd">
+              <td>Interjet</td>
+              <td class="table-center">5.436</td>
+            </tr>
+            <tr class="even">
+              <td>Volaris</td>
+              <td class="table-center">5.460</td>
+            </tr>
+            <tr class="odd">
+              <td>Pegasus</td>
+              <td class="table-center">5.468</td>
+            </tr>
+            <tr class="even">
+              <td>Thai AirAsia</td>
+              <td class="table-center">5.479</td>
+            </tr>
+            <tr class="odd">
+              <td>Vietnam Airlines</td>
+              <td class="table-center">5.482</td>
+            </tr>
+            <tr class="even">
+              <td>Citilink</td>
+              <td class="table-center">5.489</td>
+            </tr>
+            <tr class="odd">
+              <td>Vueling</td>
+              <td class="table-center">5.520</td>
+            </tr>
+            <tr class="even">
+              <td>Spring Airlines</td>
+              <td class="table-center">5.525</td>
+            </tr>
+            <tr class="odd">
+              <td>Wizz Air</td>
+              <td class="table-center">5.535</td>
+            </tr>
+            <tr class="even">
+              <td>Air Arabia</td>
+              <td class="table-center">5.532</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
 
-      <p>From looking at this list, we can see that most of them are low cost airlines. This could be explained by the fact that low cost airlines tend to squeeze more seats into an aircraft and will reduce what is included with the flight, which would probably reduce the total mass of the plane. This question would require further research., and we will discuss it at the end of our analysis.</p>
+      <p>From looking at this list, we can see that most of them are low cost airlines. This could be explained by the fact that low cost airlines tend to squeeze more seats into an aircraft and will reduce what is included with the flight, which would probably reduce the total mass of the plane. This question would require further research, and we will discuss it at the end of our analysis.</p>
       <p>Let’s look at what aircraft are mostly flown by the airlines in our small polluter list.</p>
 
       <iframe class="center" scrolling="no" style="border:none;" seamless="seamless" src="https://plot.ly/~AndreaScalisi/10.embed"></iframe>

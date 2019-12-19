@@ -72,3 +72,7 @@ h4 {
   max-width: 20vw;
   margin-bottom: 3vh;
 }
+
+.table-center {
+  text-align: center;
+}
